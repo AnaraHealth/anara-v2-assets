@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#8E108C" />
+  <meta name="robots" content="noindex" />
+  <title>Page not found — Anara Health</title>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 4 L28 26 H4 Z M11 26 L16 14 L21 26' fill='none' stroke='%238E108C' stroke-width='2.4' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg: #FBFAFF;
+      --surface: #FFFFFF;
+      --ink: #101828;
+      --ink-2: #43464D;
+      --muted: #5C6B78;
+      --line: #E7E4ED;
+      --accent: #8E108C;
+      --accent-2: #A62EE2;
+      --accent-soft: #F3E2F3;
+      --serif: "Fraunces", Georgia, serif;
+      --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: var(--sans);
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse at top right, rgba(166,46,226,0.08) 0%, transparent 40%),
+        radial-gradient(ellipse at bottom left, rgba(143,16,140,0.06) 0%, transparent 40%),
+        var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    .wrap {
+      max-width: 640px;
+      text-align: center;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--ink);
+      margin-bottom: 56px;
+    }
+    .brand-mark { color: var(--accent); display: inline-flex; }
+    .brand-name {
+      font-family: var(--serif);
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+    .brand-dot { color: var(--accent); margin: 0 2px; }
+
+    .code {
+      display: inline-block;
+      font-family: var(--serif);
+      font-size: clamp(120px, 22vw, 200px);
+      font-weight: 500;
+      line-height: 1;
+      letter-spacing: -0.05em;
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-family: var(--serif);
+      font-size: clamp(28px, 4vw, 40px);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      font-weight: 500;
+      margin: 0 0 14px;
+      color: var(--ink);
+    }
+
+    p {
+      max-width: 46ch;
+      margin: 0 auto 36px;
+      color: var(--ink-2);
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 24px;
+      min-height: 44px;
+      border-radius: 999px;
+      font-weight: 500;
+      font-size: 15px;
+      transition: transform .15s ease, background .2s ease, color .2s ease, border-color .2s ease;
+      border: 1px solid transparent;
+    }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-primary:hover { background: var(--accent-2); transform: translateY(-1px); }
+    .btn-ghost {
+      background: transparent;
+      color: var(--ink);
+      border-color: var(--line);
+    }
+    .btn-ghost:hover { background: var(--surface); border-color: var(--accent); }
+
+    .micro {
+      margin-top: 56px;
+      font-size: 13px;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+    }
+    .micro a {
+      color: var(--accent);
+      border-bottom: 1px solid var(--accent-soft);
+      padding-bottom: 1px;
+    }
+    .micro a:hover { border-color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Anara Health home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 4 L28 26 H4 Z"/>
+          <path d="M11 26 L16 14 L21 26"/>
+        </svg>
+      </span>
+      <span class="brand-name">Anara <span class="brand-dot" aria-hidden="true">·</span> Health</span>
+    </a>
+
+    <div class="code" aria-hidden="true">404</div>
+    <h1>We couldn't find that page.</h1>
+    <p>The link may be outdated, or the page has moved. Head back to the homepage — or browse the design variants if you came in looking for one.</p>
+
+    <div class="actions">
+      <a class="btn btn-primary" href="/">Back to home <span aria-hidden="true">→</span></a>
+      <a class="btn btn-ghost" href="/picker.html">Browse variants</a>
+    </div>
+
+    <div class="micro">
+      Still stuck? Email <a href="mailto:Sales@anara.health">Sales@anara.health</a>
+    </div>
+  </div>
+</body>
+</html>

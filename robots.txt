@@ -1,0 +1,7 @@
+# Anara Health — robots policy
+
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+Sitemap: https://anara.health/sitemap.xml

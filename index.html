@@ -1,0 +1,992 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#5B1A8B" />
+  <meta name="color-scheme" content="light" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Anara Health — Corporate Healthcare for India's Workforce</title>
+  <meta name="description" content="On-site clinics, telehealth, and a dedicated care manager for every employee. Built for Indian companies of 50+. Live in 2 weeks. DPDP compliant." />
+
+  <link rel="canonical" href="https://anara.health/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Anara Health" />
+  <meta property="og:title" content="Anara Health — Corporate Healthcare for India's Workforce" />
+  <meta property="og:description" content="On-site clinics, telehealth, and a dedicated care manager for every employee. Live in 2 weeks." />
+  <meta property="og:url" content="https://anara.health/" />
+  <meta property="og:image" content="https://vivek-kandula-strux.github.io/health-website/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Anara Health — Corporate Healthcare for India's Workforce" />
+  <meta property="og:locale" content="en_IN" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Anara Health — Corporate Healthcare for India's Workforce" />
+  <meta name="twitter:description" content="On-site clinics, telehealth, and a dedicated care manager for every employee. Live in 2 weeks." />
+  <meta name="twitter:image" content="https://vivek-kandula-strux.github.io/health-website/og-image.png" />
+  <meta name="twitter:image:alt" content="Anara Health — Corporate Healthcare for India's Workforce" />
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 4 L28 26 H4 Z M11 26 L16 14 L21 26' fill='none' stroke='%235B1A8B' stroke-width='2.4' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+  <link rel="preload" as="image" type="image/avif"
+    href="indian-family-1100.avif"
+    imagesrcset="indian-family-700.avif 700w, indian-family-1100.avif 1100w, indian-family-1500.avif 1500w"
+    imagesizes="(max-width: 880px) 100vw, 50vw"
+    fetchpriority="high" />
+  <link rel="preload" as="font" type="font/woff2" href="fonts/fraunces-latin.woff2" crossorigin />
+  <link rel="preload" as="font" type="font/woff2" href="fonts/outfit-latin.woff2" crossorigin />
+  <link rel="stylesheet" href="anara-v2-glass.min.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MedicalBusiness",
+        "@id": "https://anara.health/#organization",
+        "name": "Anara Health",
+        "url": "https://anara.health/",
+        "logo": "https://anara.health/Anara.png",
+        "image": "https://anara.health/indian-family-1500.png",
+        "description": "Concierge corporate healthcare for India's workforce. On-site clinics, telehealth, and dedicated care managers.",
+        "address": {"@type": "PostalAddress", "addressCountry": "IN"},
+        "areaServed": {"@type": "Country", "name": "India"},
+        "contactPoint": [{
+          "@type": "ContactPoint",
+          "telephone": "+91-90563-32891",
+          "email": "sales@anara.health",
+          "contactType": "sales",
+          "areaServed": "IN",
+          "availableLanguage": ["en", "hi"]
+        }],
+        "medicalSpecialty": ["PrimaryCare", "PreventiveMedicine", "Geriatric", "InternalMedicine"]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type":"Question","name":"Will this add work for our HR team?","acceptedAnswer":{"@type":"Answer","text":"Your HR lead confirms the date and shares the employee list. We handle equipment, doctors, reminders, lab coordination, and the post-clinic report."}},
+          {"@type":"Question","name":"What participation rate can we realistically expect?","acceptedAnswer":{"@type":"Answer","text":"85%+ across client sites. We come during working hours, to your office, with everything set up. Industry average for externally-run programmes is 40-50%."}},
+          {"@type":"Question","name":"Can you cover our employees' parents?","acceptedAnswer":{"@type":"Answer","text":"Yes — Care Managers do weekly home visits across our service cities, plus on-demand telehealth. They manage medications, lab coordination, hospital accompaniment, and send real-time WhatsApp updates to the employee."}},
+          {"@type":"Question","name":"What does executive health look like for senior leadership?","acceptedAnswer":{"@type":"Answer","text":"A dedicated session at your office — cardiovascular risk profiling, executive stress assessment, full blood panel, 1:1 consultation. No waiting. Full confidentiality."}},
+          {"@type":"Question","name":"Will Anara interfere with our existing TPA or broker?","acceptedAnswer":{"@type":"Answer","text":"No. Anara works alongside your GMC and TPA, not instead of them. Your broker relationship doesn't change."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Scroll progress hairline -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav-wrap" aria-label="Site header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="./" aria-label="Anara home">
+        <img class="brand-logo" src="Anara.png" alt="" width="400" height="120" decoding="async" fetchpriority="high" />
+        <span class="nav-tagline">Corporate Healthcare for India's Workforce</span>
+      </a>
+      <ul class="nav-links" id="primaryNav">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li class="nav-cta-mobile"><a class="btn btn-pill" href="#cta" aria-label="Request a quote, navigation">Request a Quote</a></li>
+      </ul>
+      <a class="btn btn-pill nav-cta-desktop" href="#cta" aria-label="Request a quote, navigation">Request a Quote</a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 id="hero-title">On-site health checks that <em>fit your schedule</em></h1>
+          <p class="lede">Anara brings world-class healthcare to your employees - on-site and on-demand. From blood tests and preventive health checks to specialist teleconsults, we make it easy for your team to stay healthy without leaving the building.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#cta" aria-label="Request a quote, hero"><span>Request a Quote</span> <span aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="#cta" aria-label="Talk to our team, hero">Talk to Our Team</a>
+          </div>
+        </div>
+        <div class="hero-photo" id="heroPhoto">
+          <picture>
+            <source type="image/avif"
+                    srcset="indian-family-700.avif 700w, indian-family-1100.avif 1100w, indian-family-1500.avif 1500w"
+                    sizes="(max-width: 880px) 100vw, 50vw" />
+            <source type="image/webp"
+                    srcset="indian-family-700.webp 700w, indian-family-1100.webp 1100w, indian-family-1500.webp 1500w"
+                    sizes="(max-width: 880px) 100vw, 50vw" />
+            <img src="indian-family-1100.png"
+                 srcset="indian-family-700.png 700w, indian-family-1100.png 1100w, indian-family-1500.png 1500w"
+                 sizes="(max-width: 880px) 100vw, 50vw"
+                 alt="A multi-generational Indian family — parents, grandparents, and child — standing together"
+                 width="1500" height="1015"
+                 fetchpriority="high" decoding="async" />
+          </picture>
+
+          <!-- Floating product cards — drift in to show real artifacts -->
+          <div class="float-cards" aria-hidden="true">
+            <div class="float-card float-card--wa">
+              <div class="fc-row">
+                <span class="fc-avatar">A</span>
+                <div class="fc-meta">
+                  <strong>Dr. Paul · Anara</strong>
+                  <span>now</span>
+                </div>
+              </div>
+              <p class="fc-msg">Dear Chetan, nice to see you. Please get the ultrasound abdomen done. Follow salt restricted diet.</p>
+              <span class="fc-tail"></span>
+            </div>
+
+            <div class="float-card float-card--lab is-concern">
+              <div class="fc-head">
+                <span class="fc-pill"><span class="fc-dot"></span>Result</span>
+                <span class="fc-mono">24 Apr</span>
+              </div>
+              <div class="fc-row-tight">
+                <span class="fc-label">Hemoglobin A1c</span>
+                <strong class="fc-value">6.4 <em>mg/dL</em></strong>
+              </div>
+              <div class="fc-bar"><i style="width: 78%"></i></div>
+              <span class="fc-tag">Concern: Prediabetes</span>
+            </div>
+
+            <div class="float-card float-card--stat">
+              <span class="fc-mono">Q1 · Bangalore Account</span>
+              <strong class="fc-big">85<span class="unit">%</span></strong>
+              <span class="fc-sub">Workforce participated</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container hero-stats-wrap">
+        <dl class="hero-stats">
+          <div class="hero-stat">
+            <dt><strong data-count="85">85<span class="unit">%</span></strong></dt>
+            <dd>participation rates with Anara healthcare services</dd>
+          </div>
+          <div class="hero-stat">
+            <dt>
+              <strong>9<span class="unit"> out of 10</span></strong>
+            </dt>
+            <dd>average satisfaction score</dd>
+          </div>
+          <div class="hero-stat">
+            <dt><strong>130<span class="unit">+</span></strong></dt>
+            <dd>clinic partners across India</dd>
+          </div>
+        </dl>
+        <p class="hero-stats-footnote">Based on enrolled employee usage across active Anara corporate accounts, trailing 12 months to April 2026.</p>
+      </div>
+    </section>
+
+    <!-- TEAM PEDIGREE -->
+    <section class="logos logos--static" aria-label="Our team's training and research institutions">
+      <div class="container">
+        <p class="logos-label">Trained &amp; Partnered with:</p>
+        <div class="logos-row">
+          <div class="logo-item" aria-label="Apollo Hospitals"><span class="wordmark">Apollo&nbsp;Hospitals</span></div>
+          <div class="logo-item" aria-label="Harvard Medical School"><span class="wordmark">Harvard&nbsp;Medical&nbsp;School</span></div>
+          <div class="logo-item" aria-label="AIIMS"><span class="wordmark">AIIMS</span></div>
+          <div class="logo-item" aria-label="Indian Armed Forces"><span class="wordmark">Indian&nbsp;Armed&nbsp;Forces</span></div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- PROBLEM → SOLUTION — animated participation reveal -->
+    <section class="compare section" aria-labelledby="compare-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">The participation gap</span>
+          <h2 id="compare-title">Your benefits program is strong. <em>Employee participation isn't</em>.</h2>
+          <p class="lede">Most companies invest in healthcare benefits — but only 2 in 5 employees ever uses them. The reason is rarely cost. It's friction: booking systems that require 45 minutes of hold time, clinics located across town, and appointments that clash with packed calendars. Anara removes every barrier.</p>
+        </div>
+
+        <div class="gap-stage reveal" id="gapStage">
+          <div class="gap-headline">
+            <span class="gap-eyebrow">Anara Participation Rate</span>
+            <strong class="gap-big" data-count="85" data-decimals="0">0<em>%</em></strong>
+            <span class="gap-sub">vs <strong>45<em>%</em></strong> industry average</span>
+          </div>
+
+          <div class="gap-bars">
+            <div class="gap-bar-row" data-side="them">
+              <div class="gap-bar-head">
+                <span class="gap-bar-label">Other healthcare programmes</span>
+                <span class="gap-bar-value" data-target="45">0%</span>
+              </div>
+              <div class="gap-bar-track"><i style="--w: 45%"></i></div>
+              <ul class="gap-bullets">
+                <li><span aria-hidden="true"><svg width="8" height="8" viewBox="0 0 8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="1.5" y1="1.5" x2="6.5" y2="6.5"/><line x1="6.5" y1="1.5" x2="1.5" y2="6.5"/></svg></span>Employee navigates the system alone</li>
+                <li><span aria-hidden="true"><svg width="8" height="8" viewBox="0 0 8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="1.5" y1="1.5" x2="6.5" y2="6.5"/><line x1="6.5" y1="1.5" x2="1.5" y2="6.5"/></svg></span>No data back for global HQ</li>
+              </ul>
+            </div>
+
+            <div class="gap-bar-row is-good" data-side="us">
+              <div class="gap-bar-head">
+                <span class="gap-bar-label"><span class="gap-brand">Anara</span></span>
+                <span class="gap-bar-value" data-target="85">0%</span>
+              </div>
+              <div class="gap-bar-track"><i style="--w: 85%"></i></div>
+              <ul class="gap-bullets">
+                <li><span aria-hidden="true"><svg width="9" height="8" viewBox="0 0 9 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1,4 3.5,6.5 8.5,1.5"/></svg></span>We run it — HR just approves the date</li>
+                <li><span aria-hidden="true"><svg width="9" height="8" viewBox="0 0 9 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1,4 3.5,6.5 8.5,1.5"/></svg></span>Anonymized population report per engagement</li>
+              </ul>
+            </div>
+          </div>
+          <p class="gap-footnote-min">Participation rates are based on Anara's programme history and may vary by location, company size, and engagement model.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES BENTO -->
+    <section id="services" class="services section" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Services</span>
+          <h2 id="services-title">Everything your workforce needs. One unified programme.</h2>
+        </div>
+        <div class="bento">
+          <article class="bento-tile bento-tile-1 reveal">
+            <div class="bento-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path pathLength="1" d="M3 9l9-6 9 6v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path pathLength="1" d="M12 12v6M9 15h6"/></svg>
+            </div>
+            <h3>On-Site Health Checks</h3>
+            <ul class="bento-list">
+              <li>On-site blood tests and health checks, with trusted, consistent doctors and nurses</li>
+              <li>Screening for chronic conditions, cancer early detection, urgent problems, and mental wellbeing</li>
+              <li>Digital health record access to diagnostics results and consultation reports.</li>
+            </ul>
+            <div class="bento-tile-photo" aria-hidden="true">
+              <picture>
+                <source type="image/avif"
+                        srcset="onsite-clinic-600.avif 600w, onsite-clinic-900.avif 900w, onsite-clinic-1200.avif 1200w"
+                        sizes="(max-width: 880px) 100vw, 600px" />
+                <img src="onsite-clinic-900.webp"
+                     srcset="onsite-clinic-600.webp 600w, onsite-clinic-900.webp 900w, onsite-clinic-1200.webp 1200w"
+                     sizes="(max-width: 880px) 100vw, 600px"
+                     alt=""
+                     loading="lazy" decoding="async" width="900" height="675" />
+              </picture>
+            </div>
+          </article>
+          <article class="bento-tile bento-tile-2 reveal">
+            <div class="bento-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path pathLength="1" d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            </div>
+            <h3>Ongoing Care &amp; On-Demand Telehealth</h3>
+            <ul class="bento-list">
+              <li>Follow up clinic days with doctors who know your workforce</li>
+              <li>On Demand Telehealth consultations for employee and family</li>
+              <li>Off-site master health checks and additional diagnostic testing available</li>
+            </ul>
+          </article>
+          <article class="bento-tile bento-tile-3 reveal">
+            <div class="bento-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path pathLength="1" d="M12 2C8 6 6 9 6 13a6 6 0 0 0 12 0c0-4-2-7-6-11z"/><path pathLength="1" d="M12 22v-6"/></svg>
+            </div>
+            <h3>At-Home Care for Parents and Family Members</h3>
+            <ul class="bento-list">
+              <li>Dedicated care managers for employees' parents and elderly family members</li>
+              <li>Weekly home visits available across service cities</li>
+              <li>Medication management, hospital accompaniment, lab coordination</li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="services-privacy-min reveal">Individual consultation records stay private. HR only ever sees anonymised, aggregate trends.</p>
+
+        <ul class="addons-row addons-row--quiet" aria-label="Additional programmes">
+          <li class="addons-lead" aria-hidden="true">Plus</li>
+          <li class="addons-chip" tabindex="0" data-tip="Cardiac risk profiling, 1:1 consult, 12-mo preventive plan." aria-label="Executive Health: cardiac risk profiling, 1:1 consult, 12-month preventive plan.">Executive Health</li>
+          <li class="addons-chip" tabindex="0" data-tip="Cardiology, endocrine, derm, ortho — on-site sessions." aria-label="Specialty Clinics: cardiology, endocrine, dermatology, orthopaedics — on-site sessions.">Specialty Clinics</li>
+          <li class="addons-chip" tabindex="0" data-tip="PCOS, prenatal, mental-health screening for women." aria-label="Women's Health: PCOS, prenatal, mental-health screening.">Women's Health</li>
+          <li class="addons-chip" tabindex="0" data-tip="Flu, HPV, hepatitis — fully managed campaigns." aria-label="Vaccines: flu, HPV, hepatitis — fully managed campaigns.">Vaccines</li>
+          <li class="addons-chip" tabindex="0" data-tip="Quarterly health screenings, biometric checks, nutrition, fitness, stress-management workshops." aria-label="Workplace Wellness: quarterly health screenings, biometric checks, nutrition, fitness, and stress-management workshops.">Workplace Wellness</li>
+        </ul>
+
+        <div class="services-cta reveal">
+          <a class="btn btn-primary" href="#cta" aria-label="Request a quote, services"><span>Request a Quote</span> <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how-it-works" class="hiw section" aria-labelledby="hiw-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">How it works</span>
+          <h2 id="hiw-title">Up and running in 2 weeks. No IT integration required.</h2>
+        </div>
+        <div class="hiw-steps">
+          <div class="hiw-step reveal">
+            <div class="hiw-number" aria-hidden="true">01</div>
+            <div class="hiw-content">
+              <h3>Discovery Call</h3>
+              <p>30 minutes to understand your workforce and existing benefits. We return with a tailored proposal.</p>
+            </div>
+          </div>
+          <div class="hiw-connector" aria-hidden="true"></div>
+          <div class="hiw-step reveal">
+            <div class="hiw-number" aria-hidden="true">02</div>
+            <div class="hiw-content">
+              <h3>Welcome &amp; Onboard</h3>
+              <p>We handle scheduling, employee communications, app setup, and on-site orientation.</p>
+            </div>
+          </div>
+          <div class="hiw-connector" aria-hidden="true"></div>
+          <div class="hiw-step reveal">
+            <div class="hiw-number" aria-hidden="true">03</div>
+            <div class="hiw-content">
+              <h3>On-Site Blood Tests &amp; Health Check</h3>
+              <p>Anara arrives on-site on the agreed schedule with everything set up - physicians, equipment, and lab logistics. Every employee receives follow-up personalised to their results.</p>
+            </div>
+          </div>
+          <div class="hiw-connector" aria-hidden="true"></div>
+          <div class="hiw-step reveal">
+            <div class="hiw-number" aria-hidden="true">04</div>
+            <div class="hiw-content">
+              <h3>Continuous Care</h3>
+              <p>Monthly check-ins for chronic condition employees, on demand telehealth, follow up clinics, annual population health report delivered to your HR.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PILOT OFFER -->
+    <section id="pilot" class="pilot section" aria-labelledby="pilot-title">
+      <div class="container">
+        <div class="pilot-inner reveal">
+          <div class="pilot-copy">
+            <span class="eyebrow">Pilot programme</span>
+            <h2 id="pilot-title">Not ready to roll out company-wide? Start with a pilot for one team, one floor, or one location. <em>Scale when you're ready.</em></h2>
+            <p class="lede">You'll see real utilisation data, real employee feedback, and a clear ROI picture before you commit to a full programme.</p>
+            <ul class="pilot-list">
+              <li><span class="pilot-check" aria-hidden="true"><svg width="10" height="8" viewBox="0 0 10 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1,4 3.5,6.5 9,1.5"/></svg></span>Structured programme with regular check-ins</li>
+              <li><span class="pilot-check" aria-hidden="true"><svg width="10" height="8" viewBox="0 0 10 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1,4 3.5,6.5 9,1.5"/></svg></span>Full access to on-site and telehealth services, with dedicated care manager</li>
+              <li><span class="pilot-check" aria-hidden="true"><svg width="10" height="8" viewBox="0 0 10 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1,4 3.5,6.5 9,1.5"/></svg></span>End-of-programme ROI and utilisation report</li>
+              <li><span class="pilot-check" aria-hidden="true"><svg width="10" height="8" viewBox="0 0 10 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1,4 3.5,6.5 9,1.5"/></svg></span>No changes required to your existing benefits or insurance</li>
+            </ul>
+            <div class="pilot-ctas">
+              <a class="btn btn-primary" href="#cta" aria-label="Start a pilot, pilot section"><span>Start a Pilot Programme</span> <span aria-hidden="true">→</span></a>
+              <a class="btn btn-ghost" href="#cta">Talk to Our Team</a>
+            </div>
+          </div>
+          <div class="pilot-visual" aria-hidden="true">
+            <div class="pilot-card">
+              <span class="pilot-card-eyebrow">Pilot snapshot · 90 days</span>
+              <div class="pilot-metric"><strong>85%</strong><span>avg utilisation</span></div>
+              <div class="pilot-metric"><strong>~2&times;</strong><span>industry participation</span></div>
+              <div class="pilot-metric"><strong>&lt;2 wks</strong><span>to go-live</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPLIANCE -->
+    <section class="compliance section-tight" aria-label="Security and compliance">
+      <div class="container">
+        <div class="compliance-inner">
+          <span class="compliance-label">Security &amp; compliance</span>
+          <div class="compliance-row">
+            <span class="badge">
+              <span class="badge-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v7c0 5 3.4 8.4 8 10 4.6-1.6 8-5 8-10V5l-8-3z"/><path d="m9 12 2 2 4-4"/></svg>
+              </span>
+              DPDP Act 2023 compliant
+            </span>
+            <span class="badge">
+              <span class="badge-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+              </span>
+              AES-256 encryption at rest
+            </span>
+            <span class="badge">
+              <span class="badge-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><circle cx="7" cy="7" r="0.7" fill="currentColor"/><circle cx="7" cy="17" r="0.7" fill="currentColor"/></svg>
+              </span>
+              Azure Central India residency
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARE TEAM -->
+    <section id="team" class="team section" aria-labelledby="team-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Our care team</span>
+          <h2 id="team-title">Real people, <em>real care</em>.</h2>
+          <p class="lede">Every Anara engagement is delivered by a dedicated team. You get the full team — not a call-centre handoff.</p>
+        </div>
+
+        <div class="team-grid team-grid--quartet">
+          <article class="team-card team-card--lead reveal">
+            <span class="team-tier">On-site</span>
+            <div class="team-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path pathLength="1" d="M6 2v6a4 4 0 0 0 8 0V2"/><path pathLength="1" d="M10 14v3a4 4 0 0 0 8 0v-2"/><circle pathLength="1" cx="18" cy="13" r="2"/></svg>
+            </div>
+            <h3>Doctors</h3>
+            <p>MBBS and MD physicians trained in preventive care. Available on-site for clinic days and on WhatsApp for follow-up. Not teleconsultation operators – doctors who know your workforce.</p>
+          </article>
+
+          <article class="team-card team-card--lead reveal">
+            <span class="team-tier">At home</span>
+            <div class="team-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path pathLength="1" d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-7h-6v7H4a1 1 0 0 1-1-1z"/></svg>
+            </div>
+            <h3>Care Managers</h3>
+            <p>Retired Indian Armed Forces personnel, nurses, and trained caregivers for your employees and their families. They do home visits, manage hospital accompaniment, and handle logistics – so your employees don't have to.</p>
+          </article>
+
+          <article class="team-card team-card--lead reveal">
+            <span class="team-tier">Follow-up</span>
+            <div class="team-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path pathLength="1" d="M3 12h4l2-5 4 10 2-5h6"/></svg>
+            </div>
+            <h3>Health Coaches</h3>
+            <p>Post-clinic follow-through. Check-ins on high-risk findings — elevated BP, pre-diabetic, high stress.</p>
+          </article>
+
+          <article class="team-card team-card--lead reveal">
+            <span class="team-tier">HR liaison</span>
+            <div class="team-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path pathLength="1" d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle pathLength="1" cx="9" cy="7" r="4"/><path pathLength="1" d="M23 21v-2a4 4 0 0 0-3-3.87"/><path pathLength="1" d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>HR Liaison</h3>
+            <p>Your single point of contact. Scheduling, communications, reports, escalations all handled.</p>
+          </article>
+        </div>
+
+        <div class="team-subsection reveal">
+          <h3 class="subsection-title">Meet some of our care team</h3>
+          <p class="subsection-intro">A dedicated staff of care managers, many with a background in the Indian Armed Forces, deployed to your workforce.</p>
+
+          <div class="team-grid team-grid--quartet">
+            <div class="team-card reveal">
+              <picture>
+                <source type="image/avif" srcset="team-ekta-270.avif 270w, team-ekta-540.avif 540w" sizes="120px" />
+                <img class="team-cm-photo team-cm-photo--ekta" src="team-ekta-540.webp" srcset="team-ekta-270.webp 270w, team-ekta-540.webp 540w" sizes="120px" alt="Maj Ekta Sharma (Retd), Care Manager" loading="lazy" decoding="async" width="540" height="540" />
+              </picture>
+              <strong class="team-cm-name">Maj Ekta Sharma (Retd)</strong>
+              <span class="team-cm-role">Care Manager</span>
+            </div>
+
+            <div class="team-card reveal">
+              <picture>
+                <source type="image/avif" srcset="team-ebenezer-270.avif 270w, team-ebenezer-540.avif 540w" sizes="120px" />
+                <img class="team-cm-photo" src="team-ebenezer-540.webp" srcset="team-ebenezer-270.webp 270w, team-ebenezer-540.webp 540w" sizes="120px" alt="Ebenezer Christudoss, Care Manager" loading="lazy" decoding="async" width="540" height="540" />
+              </picture>
+              <strong class="team-cm-name">Ebenezer Christudoss</strong>
+              <span class="team-cm-role">Care Manager</span>
+            </div>
+
+            <div class="team-card reveal">
+              <picture>
+                <source type="image/avif" srcset="team-seema-270.avif 270w, team-seema-540.avif 540w" sizes="120px" />
+                <img class="team-cm-photo" src="team-seema-540.webp" srcset="team-seema-270.webp 270w, team-seema-540.webp 540w" sizes="120px" alt="Seema Gupta, Care Manager" loading="lazy" decoding="async" width="540" height="540" />
+              </picture>
+              <strong class="team-cm-name">Seema Gupta</strong>
+              <span class="team-cm-role">Care Manager</span>
+            </div>
+
+            <div class="team-card reveal">
+              <picture>
+                <source type="image/avif" srcset="team-niranjan-270.avif 270w, team-niranjan-540.avif 540w" sizes="120px" />
+                <img class="team-cm-photo" src="team-niranjan-540.webp" srcset="team-niranjan-270.webp 270w, team-niranjan-540.webp 540w" sizes="120px" alt="Sub Maj Niranjan Lal (Retd), Care Manager" loading="lazy" decoding="async" width="540" height="540" />
+              </picture>
+              <strong class="team-cm-name">Sub Maj Niranjan Lal (Retd)</strong>
+              <span class="team-cm-role">Care Manager</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SAMPLE REPORT — multi-chart dashboard on dark ink -->
+    <section id="sample" class="sample section is-dark" aria-labelledby="sample-title">
+      <div class="container">
+        <div class="sample-grid">
+          <div class="sample-copy reveal">
+            <span class="eyebrow">For your CHRO deck</span>
+            <h2 id="sample-title">A quarterly health report your CHRO actually opens.</h2>
+            <p class="lede">Anonymised population-level insights — participation rates, top conditions, BMI trends, and mental health indicators. Demonstrate the impact of HR's benefits investment without disclosing any individual employee's data.</p>
+            <a class="link-arrow" href="#cta">See a real sample <span aria-hidden="true">→</span></a>
+          </div>
+
+          <article class="sample-card reveal" aria-label="Sample population health report">
+            <div class="sample-card-head">
+              <div>
+                <span class="sample-eyebrow">Sample · Workforce health (anonymised)</span>
+                <h4>Quarterly Snapshot</h4>
+              </div>
+            </div>
+
+            <div class="sample-board">
+              <!-- KPI tiles -->
+              <div class="sample-kpis">
+                <div class="sample-kpi">
+                  <span class="sample-kpi-label">Participation</span>
+                  <strong class="sample-kpi-val">92<em>%</em></strong>
+                  <span class="sample-kpi-delta is-up">▲ 14 vs Q3</span>
+                </div>
+                <div class="sample-kpi">
+                  <span class="sample-kpi-label">Sick-days YoY</span>
+                  <strong class="sample-kpi-val">−17<em>%</em></strong>
+                  <span class="sample-kpi-delta is-up">▲ improved</span>
+                </div>
+              </div>
+
+              <!-- Donut: vitals breakdown -->
+              <div class="sample-donut-card">
+                <span class="sample-eyebrow">Vitals · 1,240 employees</span>
+                <div class="donut-wrap">
+                  <svg class="donut" viewBox="0 0 42 42" aria-hidden="true">
+                    <circle class="donut-track" cx="21" cy="21" r="15.915"/>
+                    <circle class="donut-seg donut-seg-1" cx="21" cy="21" r="15.915" stroke-dasharray="64 100" stroke-dashoffset="25"/>
+                    <circle class="donut-seg donut-seg-2" cx="21" cy="21" r="15.915" stroke-dasharray="22 100" stroke-dashoffset="-39"/>
+                    <circle class="donut-seg donut-seg-3" cx="21" cy="21" r="15.915" stroke-dasharray="14 100" stroke-dashoffset="-61"/>
+                  </svg>
+                  <div class="donut-center">
+                    <strong>1,240</strong>
+                    <span>employees</span>
+                  </div>
+                </div>
+                <ul class="donut-legend">
+                  <li><span class="dl-dot dl-1"></span>Normal <em>64%</em></li>
+                  <li><span class="dl-dot dl-2"></span>Watch <em>22%</em></li>
+                  <li><span class="dl-dot dl-3"></span>Risk <em>14%</em></li>
+                </ul>
+              </div>
+
+              <!-- Sparkline: wellness index -->
+              <div class="sample-spark-card">
+                <div class="spark-head">
+                  <span class="sample-eyebrow">Wellness index</span>
+                  <span class="spark-delta">+12.4 pts YoY</span>
+                </div>
+                <svg class="sparkline" viewBox="0 0 200 56" preserveAspectRatio="none" aria-hidden="true">
+                  <defs>
+                    <linearGradient id="sparkFill" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#C9A56C" stop-opacity="0.35"/>
+                      <stop offset="100%" stop-color="#C9A56C" stop-opacity="0"/>
+                    </linearGradient>
+                  </defs>
+                  <path d="M0,46 L25,42 L50,38 L75,32 L100,28 L125,24 L150,18 L175,14 L200,8 L200,56 L0,56 Z" fill="url(#sparkFill)"/>
+                  <path d="M0,46 L25,42 L50,38 L75,32 L100,28 L125,24 L150,18 L175,14 L200,8" fill="none" stroke="#C9A56C" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+                  <circle cx="200" cy="8" r="3" fill="#C9A56C"/>
+                </svg>
+                <div class="spark-foot">
+                  <span>Q2 '25</span><span>Q1 '26</span>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="sample-callout">
+              <strong>What this means</strong>
+              92% of your workforce engaged in some preventive care this quarter. Three departments need targeted follow-up.
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT / TEAM -->
+    <section id="about" class="about section" aria-labelledby="about-title">
+      <div class="container about-shell">
+
+        <div class="about-mark">
+          <span class="about-label">About Anara</span>
+          <span class="about-rule" aria-hidden="true"></span>
+          <span class="about-meta">India · Concierge Care · est. 2024</span>
+        </div>
+
+        <h2 id="about-title" class="about-statement">
+          India runs on its corporates. Corporates run on their people.
+          Workforce healthcare should <em>act like it</em>.
+        </h2>
+
+        <div class="about-grid">
+          <div class="about-col">
+            <h3 class="about-h">The thesis</h3>
+            <p>Most workforce health programmes in India measure activity — drives run, mailers sent, vouchers issued. None of those numbers add up to a healthier employee.</p>
+            <p>Anara was built on a different bet: <em>if the care comes to where work happens, in the format people already use, the outcomes follow.</em> On-site clinics. WhatsApp as a communication channel. India's existing health stack. No new app, no portal, no chasing.</p>
+          </div>
+
+          <div class="about-col">
+            <h3 class="about-h">In practice</h3>
+            <ol class="about-list">
+              <li>
+                <span class="about-n" aria-hidden="true">01</span>
+                <div>
+                  <strong>The care comes to the office.</strong>
+                  <span>Doctors, equipment, lab logistics — we set up. Employees show up.</span>
+                </div>
+              </li>
+              <li>
+                <span class="about-n" aria-hidden="true">02</span>
+                <div>
+                  <strong>A real human, every time.</strong>
+                  <span>A named care manager per employee. No call-centre handoffs, no chatbot triage.</span>
+                </div>
+              </li>
+              <li>
+                <span class="about-n" aria-hidden="true">03</span>
+                <div>
+                  <strong>WhatsApp-first follow-up.</strong>
+                  <span>Where India already is. A personalised plan within 48 hours of every check.</span>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <figure class="about-environment" aria-label="Anara on-site clinic">
+          <picture>
+            <source type="image/avif" srcset="image2.avif" />
+            <source type="image/webp" srcset="image2.webp" />
+            <img src="image2.jpg"
+                 alt="An Anara physician at an on-site corporate clinic"
+                 loading="lazy" decoding="async" width="1074" height="805" />
+          </picture>
+          <figcaption>
+            <span class="about-environment-tag">On-site, in your office</span>
+            <span class="about-environment-cap">Anara clinics are set up inside your premises — physician, equipment, lab logistics included.</span>
+          </figcaption>
+        </figure>
+
+        <div class="about-team" aria-labelledby="about-team-title">
+          <div class="about-team-head">
+            <span class="about-label">Leadership team</span>
+            <h3 id="about-team-title" class="about-team-h">Built to transform Indian healthcare.</h3>
+            <p class="about-team-intro">Anara is led by clinicians, operators, and technologists who have spent their careers at the intersection of high-performance organisations and preventive medicine — from Apollo Hospitals to Harvard Medical School to the Indian Air Force.</p>
+          </div>
+
+          <div class="about-team-grid about-team-grid--asym">
+            <article class="about-person about-person--hero" style="grid-area: hero">
+              <div class="about-portrait about-portrait--tall">
+                <picture>
+                  <source type="image/avif"
+                          srcset="team-rahul-540.avif 540w, team-rahul-800.avif 800w"
+                          sizes="(max-width: 880px) 100vw, 50vw" />
+                  <img src="team-rahul-800.webp"
+                       srcset="team-rahul-540.webp 540w, team-rahul-800.webp 800w"
+                       sizes="(max-width: 880px) 100vw, 50vw"
+                       alt="Rahul Reddy, Founder &amp; CEO of Anara Health"
+                       loading="lazy" decoding="async" width="540" height="810" />
+                </picture>
+              </div>
+              <div class="about-person-body">
+                <span class="about-role">Founder &amp; CEO</span>
+                <strong class="about-name">Rahul Reddy</strong>
+                <p class="about-bio">30+ years as a leader in healthcare tech and IT — CEO, entrepreneur, executive, and SVP at Apollo. Initiated and launched international care and research partnerships with top hospitals, NRI 360, and mobile-first disease-management programmes for South Asian health.</p>
+              </div>
+            </article>
+
+            <article class="about-person" style="grid-area: a">
+              <div class="about-portrait">
+                <picture>
+                  <source type="image/avif"
+                          srcset="team-jason-270.avif 270w, team-jason-540.avif 540w"
+                          sizes="(max-width: 880px) 50vw, 22vw" />
+                  <img src="team-jason-540.webp"
+                       srcset="team-jason-270.webp 270w, team-jason-540.webp 540w"
+                       sizes="(max-width: 880px) 50vw, 22vw"
+                       alt="Dr. Jason Paruthi, Chief Product Officer"
+                       loading="lazy" decoding="async" width="540" height="534" />
+                </picture>
+              </div>
+              <div class="about-person-body">
+                <span class="about-role">Chief Product Officer</span>
+                <strong class="about-name">Dr. Jason Paruthi</strong>
+                <p class="about-bio">Harvard Medical School, Boston Medical Center, AIIMS clinical training. 15+ years across Silicon Valley, Harvard, and MIT companies building evidence-based health programmes. Medical Ethics Award Winner.</p>
+              </div>
+            </article>
+
+            <article class="about-person" style="grid-area: b">
+              <div class="about-portrait">
+                <picture>
+                  <source type="image/avif"
+                          srcset="team-abinash-270.avif 270w, team-abinash-540.avif 540w"
+                          sizes="(max-width: 880px) 50vw, 22vw" />
+                  <img src="team-abinash-540.webp"
+                       srcset="team-abinash-270.webp 270w, team-abinash-540.webp 540w"
+                       sizes="(max-width: 880px) 50vw, 22vw"
+                       alt="Dr. Abinash Paul, Chief Medical Officer"
+                       loading="lazy" decoding="async" width="540" height="540" />
+                </picture>
+              </div>
+              <div class="about-person-body">
+                <span class="about-role">Chief Medical Officer</span>
+                <strong class="about-name">Dr. Abinash Paul</strong>
+                <p class="about-bio">MBBS, MD — Armed Forces Medical College, Pune. Pulmonary &amp; critical care at PGIMER, Chandigarh. 26 years in the Indian Air Force and six in Dubai. Internal medicine, geriatrics, pulmonary, critical care.</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TRUST: Founder + testimonials -->
+    <section id="trust" class="trust-block section" aria-labelledby="trust-title">
+      <div class="container">
+        <div class="section-head-left reveal">
+          <span class="eyebrow">Built by operators, used by HR</span>
+          <h2 id="trust-title">Why HR teams trust Anara from week one.</h2>
+        </div>
+        <div class="trust-grid">
+          <div class="founder reveal">
+            <div class="founder-portrait has-photo">
+              <picture>
+                <source type="image/avif"
+                        srcset="team-rahul-540.avif 540w, team-rahul-800.avif 800w"
+                        sizes="(max-width: 880px) 100vw, 380px" />
+                <img src="team-rahul-540.webp"
+                     srcset="team-rahul-540.webp 540w, team-rahul-800.webp 800w"
+                     sizes="(max-width: 880px) 100vw, 380px"
+                     alt="Rahul Reddy, Founder &amp; CEO of Anara Health"
+                     loading="lazy" decoding="async" width="540" height="810" />
+              </picture>
+            </div>
+            <div class="founder-quote">
+              <blockquote>
+                We take the health piece completely off your plate. You shouldn't have to think about scheduling, employee communications, lab coordination, or reporting. That's what we're here for.
+              </blockquote>
+              <div class="founder-cite">
+                <div>
+                  <strong>Rahul Reddy</strong>
+                  <span>Founder &amp; CEO, Anara Health</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tlist reveal">
+            <article class="tcard tcard--lead">
+              <p>We'd been running health camps for years. Blood tests done, reports sent, but nothing acted on. Anara increased the engagement of our employees, and gave us a population map of which risks to prioritise.</p>
+              <div class="tcard-meta">
+                <div class="tcard-avatar" aria-hidden="true">H</div>
+                <div>
+                  <strong>Head of HR</strong>
+                  <span>Global Technology Company · Chennai</span>
+                </div>
+              </div>
+            </article>
+            <article class="tcard">
+              <p>Our previous vendor had 34% participation after years. Anara came on site. 88% of employees got their blood tests and health checks. Game changer for us!</p>
+              <div class="tcard-meta">
+                <div class="tcard-avatar b" aria-hidden="true">C</div>
+                <div>
+                  <strong>COO</strong>
+                  <span>Global Manufacturing Company · Delhi NCR</span>
+                </div>
+              </div>
+            </article>
+            <article class="tcard">
+              <p>Anara made it easy to deliver top quality healthcare for my employees. Anara handled scheduling, communications, lab coordination, and the post-clinic report. My only job was approving the dates.</p>
+              <div class="tcard-meta">
+                <div class="tcard-avatar c" aria-hidden="true">C</div>
+                <div>
+                  <strong>Chief People Officer</strong>
+                  <span>Global Technology Company · Bangalore</span>
+                </div>
+              </div>
+            </article>
+            <p class="trust-scale">Anara serves enterprise corporate accounts across India, with thousands of enrolled employees and their families.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq section" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2 id="faq-title">What HR &amp; procurement ask first.</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item" data-cat="ops">
+            <summary>
+              <span>Will this add work for our HR team?</span>
+              <span class="faq-chev" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-body">
+              Your HR lead confirms the date and shares the employee list. We handle equipment, doctors, reminders, lab coordination, and the post-clinic report. Most HR contacts tell us we're the one healthcare programme they don't have to manage.
+            </div>
+          </details>
+          <details class="faq-item" data-cat="ops">
+            <summary>
+              <span>What participation rate can we realistically expect?</span>
+              <span class="faq-chev" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-body">
+              85%+ across client sites. We come during working hours, to your office, with everything set up. Industry average for externally-run programmes is 40–50%.
+            </div>
+          </details>
+          <details class="faq-item" data-cat="clinical">
+            <summary>
+              <span>Can you cover our employees' parents?</span>
+              <span class="faq-chev" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-body">
+              Yes — Care Managers do weekly home visits across our service cities, plus on-demand telehealth. They manage medications, lab coordination, hospital accompaniment, and send real-time WhatsApp updates to the employee.
+            </div>
+          </details>
+          <details class="faq-item" data-cat="clinical">
+            <summary>
+              <span>What does executive health look like for senior leadership?</span>
+              <span class="faq-chev" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-body">
+              A dedicated session at your office — cardiovascular risk profiling, executive stress assessment, full blood panel, 1:1 consultation. No waiting. Full confidentiality. Leaders get a personal summary and a 12-month preventive plan.
+            </div>
+          </details>
+          <details class="faq-item" data-cat="scope">
+            <summary>
+              <span>Will Anara interfere with our existing TPA or broker?</span>
+              <span class="faq-chev" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-body">
+              No. Anara works alongside your GMC and TPA, not instead of them. Your broker relationship doesn't change.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA + LEAD FORM -->
+    <section id="cta" class="cta section" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-grid">
+          <div class="cta-copy reveal">
+            <span class="eyebrow">Get started</span>
+            <h2 id="cta-title">Ready to see what this looks like for your company?</h2>
+            <p class="lede">Our team typically responds within 48 hours. Send a few details and we'll come back with a tailored proposal — no sales pitch, just a conversation.</p>
+            <div class="cta-contact">
+              <p class="cta-contact-note">Prefer to talk now? Reach us by <a href="mailto:sales@anara.health" aria-label="Email sales at anara.health">email</a>, <a href="tel:+919056332891" aria-label="Phone +91 90563 32891">phone</a>, or <a href="https://wa.me/919056332891?text=Hi%20Anara%2C%20I%27d%20like%20to%20learn%20more%20about%20your%20corporate%20programme." rel="noopener noreferrer" aria-label="WhatsApp Anara Health">WhatsApp</a>.</p>
+            </div>
+          </div>
+          <div class="lead-form-wrap reveal">
+            <p class="sr-only" id="formAnnouncer" role="status" aria-live="polite" aria-atomic="true"></p>
+            <form id="leadForm" class="lead-form" action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST" novalidate>
+              <h3>Request a Quote</h3>
+              <input type="hidden" name="_subject" value="New lead from anara.health" />
+              <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" aria-hidden="true" />
+              <div class="form-grid">
+                <div class="form-row form-float">
+                  <input id="lf-name" name="name" type="text" placeholder=" " required autocomplete="name" />
+                  <label for="lf-name">Full name<span class="req" aria-hidden="true">*</span><span class="sr-only"> required</span></label>
+                  <span class="form-error" role="alert"></span>
+                </div>
+                <div class="form-row form-float">
+                  <input id="lf-email" name="email" type="email" placeholder=" " required autocomplete="email" />
+                  <label for="lf-email">Work email<span class="req" aria-hidden="true">*</span><span class="sr-only"> required</span></label>
+                  <span class="form-error" role="alert"></span>
+                </div>
+                <div class="form-row form-float">
+                  <input id="lf-company" name="company" type="text" placeholder=" " required autocomplete="organization" />
+                  <label for="lf-company">Company name<span class="req" aria-hidden="true">*</span><span class="sr-only"> required</span></label>
+                  <span class="form-error" role="alert"></span>
+                </div>
+                <div class="form-row form-float form-float--select">
+                  <select id="lf-size" name="employees" required>
+                    <option value="" disabled selected hidden></option>
+                    <option value="50-200">50 – 200</option>
+                    <option value="200-1000">200 – 1,000</option>
+                    <option value="1000-5000">1,000 – 5,000</option>
+                    <option value="5000+">5,000+</option>
+                  </select>
+                  <label for="lf-size">Approximate number of employees<span class="req" aria-hidden="true">*</span><span class="sr-only"> required</span></label>
+                  <span class="form-error" role="alert"></span>
+                </div>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary btn-morph">
+                  <span class="btn-label-idle">Request a Quote <span aria-hidden="true">→</span></span>
+                  <span class="btn-label-sending" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 3a9 9 0 1 0 9 9" opacity="0.95"/></svg>
+                    Sending
+                  </span>
+                  <span class="btn-label-done" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 4 4L19 7"/></svg>
+                    Sent
+                  </span>
+                </button>
+                <p class="form-meta">We never share your information. No spam, ever.</p>
+              </div>
+            </form>
+            <div class="form-success">
+              <strong>Got it — thanks.</strong>
+              <p>Our team will reach out within 48 hours. In a hurry? Email <a href="mailto:sales@anara.health" style="color:var(--purple);text-decoration:underline;">sales@anara.health</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="f-brand">
+          <a class="brand" href="./" aria-label="Anara home">
+            <img class="brand-logo brand-logo--inverse" src="Anara.png" alt="" width="400" height="120" loading="lazy" decoding="async" />
+          </a>
+          <p>Concierge healthcare for India's corporate workforce.</p>
+        </div>
+        <div class="f-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">On-Site Primary Care</a></li>
+            <li><a href="#services">On-Demand Telehealth</a></li>
+            <li><a href="#services">Workplace Wellness Programmes</a></li>
+            <li><a href="#services">Executive Health</a></li>
+          </ul>
+        </div>
+        <div class="f-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#cta" aria-label="Request a quote, footer">Request a Quote</a></li>
+          </ul>
+        </div>
+        <div class="f-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:Sales@anara.health">Sales@anara.health</a></li>
+            <li><a href="tel:+919056332891">+91 90563 32891</a></li>
+            <li><a href="https://wa.me/919056332891" rel="noopener">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="f-base">
+        <span>© 2026 Anara Health · DPDP Act 2023 compliant · Data in Azure Central India</span>
+        <span><a href="./terms.html">Terms</a> · <a href="./privacy.html">Privacy</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="anara-v2-glass.min.js" defer></script>
+</body>
+</html>
