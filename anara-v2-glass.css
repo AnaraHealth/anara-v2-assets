@@ -1118,6 +1118,8 @@ body.nav-open { overflow: hidden; }
   margin: 0;
   grid-area: title;
   align-self: center;
+  justify-self: start;
+  text-align: left;
 }
 .team-card--lead p {
   font-size: 15.5px;
@@ -1142,6 +1144,8 @@ body.nav-open { overflow: hidden; }
 .team-card--lead .team-tier {
   color: var(--purple);
   margin-bottom: 0;
+  justify-self: start;
+  text-align: left;
 }
 .team-card::before {
   content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px;
