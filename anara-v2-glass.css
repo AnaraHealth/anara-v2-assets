@@ -100,6 +100,7 @@
 html {
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
+  scroll-padding-top: 84px;
   overflow-x: clip;
 }
 body {
@@ -888,11 +889,13 @@ body.nav-open { overflow: hidden; }
 .gap-bullets {
   display: flex; flex-direction: column; gap: 6px;
   margin-top: 4px;
+  text-align: left;
 }
 .gap-bullets li {
   display: flex; align-items: flex-start; gap: 8px;
   font-size: 13.5px; color: var(--ink-2);
   line-height: 1.45;
+  text-align: left;
 }
 .gap-bullets li span {
   width: 14px; height: 14px; flex-shrink: 0; margin-top: 3px;
@@ -969,6 +972,11 @@ body.nav-open { overflow: hidden; }
 .bento-tile h3 { font-size: 22px; margin-bottom: var(--s-2); }
 .bento-tile p { color: var(--ink-2); font-size: 15px; line-height: 1.55; }
 .bento-tile .link-arrow { margin-top: auto; padding-top: var(--s-4); }
+.bento-tile,
+.bento-list,
+.bento-list li {
+  text-align: left;
+}
 
 .bento-tile-photo {
   margin-top: auto;
@@ -1092,6 +1100,14 @@ body.nav-open { overflow: hidden; }
 .team-card--lead {
   grid-column: span 6;
   padding: var(--s-6) var(--s-6) var(--s-6);
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr);
+  grid-template-areas:
+    "tier tier"
+    "icon title"
+    "body body";
+  column-gap: var(--s-4);
+  row-gap: var(--s-3);
   background:
     radial-gradient(ellipse 80% 60% at 100% 0%, rgba(91,26,139,0.06), transparent 60%),
     var(--surface);
@@ -1099,15 +1115,21 @@ body.nav-open { overflow: hidden; }
 }
 .team-card--lead h3 {
   font-size: clamp(22px, 2.2vw, 28px);
-  margin-bottom: var(--s-3);
+  margin: 0;
+  grid-area: title;
+  align-self: center;
 }
 .team-card--lead p {
   font-size: 15.5px;
   line-height: 1.6;
   max-width: 44ch;
+  grid-area: body;
+  text-align: left;
 }
 .team-card--lead .team-icon {
   width: 52px; height: 52px;
+  grid-area: icon;
+  margin-bottom: 0;
 }
 .team-tier {
   font-family: var(--mono);
@@ -1115,8 +1137,12 @@ body.nav-open { overflow: hidden; }
   letter-spacing: 0.14em; text-transform: uppercase;
   color: var(--ink-3);
   margin-bottom: var(--s-3);
+  grid-area: tier;
 }
-.team-card--lead .team-tier { color: var(--purple); }
+.team-card--lead .team-tier {
+  color: var(--purple);
+  margin-bottom: 0;
+}
 .team-card::before {
   content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px;
   background: linear-gradient(90deg, transparent, var(--purple), transparent);
@@ -1156,6 +1182,7 @@ body.nav-open { overflow: hidden; }
 .team-card p {
   color: var(--ink-2);
   font-size: 14.5px; line-height: 1.6;
+  text-align: left;
 }
 
 @media (max-width: 1000px) {
@@ -1192,6 +1219,10 @@ body.nav-open { overflow: hidden; }
 .sample.is-dark .link-arrow:hover { color: #fff; border-bottom-color: #fff; }
 .sample-grid .sample-copy h2 { margin-bottom: var(--s-4); }
 .sample-grid .link-arrow { margin-top: var(--s-5); }
+.sample-copy,
+.sample-card {
+  text-align: left;
+}
 
 .sample-grid {
   display: grid; grid-template-columns: 0.85fr 1.15fr;
@@ -1463,6 +1494,8 @@ body.nav-open { overflow: hidden; }
   color: var(--ink);
   max-width: 22ch;
   margin-bottom: var(--s-8);
+  text-align: left;
+  text-wrap: normal;
 }
 .about-statement em {
   font-style: italic;
@@ -1581,7 +1614,7 @@ body.nav-open { overflow: hidden; }
 /* Asymmetric editorial layout — magazine-spread feel.
    Hero (CEO) anchors the left, three supporting cards arrange right. */
 .about-team-grid--asym {
-  grid-template-columns: 1.55fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-template-rows: auto;
   grid-template-areas:
     "hero a b";
@@ -1617,27 +1650,27 @@ body.nav-open { overflow: hidden; }
 .about-person:hover .about-portrait img { transform: scale(1.025); }
 
 /* Variants for asymmetric grid */
-.about-portrait--tall   { aspect-ratio: 4 / 5; }
+.about-portrait--tall   { aspect-ratio: 1 / 1.15; }
 .about-portrait--square { aspect-ratio: 1 / 1; }
-.about-portrait--tall img { object-position: center 18%; }
+.about-portrait--tall img { object-position: center 22%; }
 
 /* Hero card (featured leader, e.g. CEO) — takes both rows in left column.
    Larger portrait + name treated like a magazine cover. */
 .about-person--hero {
-  gap: var(--s-4);
+  gap: var(--s-3);
 }
 .about-person--hero .about-name {
-  font-size: clamp(22px, 2.2vw, 30px);
-  letter-spacing: -0.018em;
-  line-height: 1.1;
+  font-size: 17px;
+  letter-spacing: -0.01em;
+  line-height: inherit;
 }
 .about-person--hero .about-role {
-  font-size: 11px;
-  letter-spacing: 0.22em;
+  font-size: 10px;
+  letter-spacing: 0.18em;
 }
 .about-person--hero .about-bio {
-  font-size: 14px;
-  max-width: 48ch;
+  font-size: 13px;
+  max-width: none;
 }
 
 .about-portrait-tag {
@@ -1787,6 +1820,14 @@ body.nav-open { overflow: hidden; }
 .founder-portrait.has-photo::before { display: none; }
 
 .founder-quote { padding-left: 0; }
+.founder,
+.founder-quote,
+.tlist,
+.tcard,
+.tcard p,
+.trust-scale {
+  text-align: left;
+}
 .founder-quote blockquote {
   margin: 0; font-family: var(--serif); font-weight: 400;
   font-size: clamp(20px, 2vw, 26px); line-height: 1.32;
@@ -2483,6 +2524,24 @@ body.nav-open { overflow: hidden; }
   max-width: 1100px; margin: 0 auto;
 }
 .pilot-copy .lede { margin: var(--s-4) 0 var(--s-5); }
+.pilot-copy,
+.pilot-list,
+.pilot-list li {
+  text-align: left;
+}
+.pilot-title-main,
+.pilot-title-sub {
+  display: block;
+}
+.pilot-title-sub {
+  margin-top: var(--s-3);
+  max-width: 34ch;
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.2vw, 32px);
+  line-height: 1.18;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+}
 .pilot-list {
   list-style: none;
   margin-bottom: var(--s-5);
@@ -2545,7 +2604,7 @@ body.nav-open { overflow: hidden; }
 .tcard--lead p { font-size: 17px; }
 .trust-scale {
   font-size: 13px; font-weight: 600; color: var(--ink-2);
-  text-align: center; padding: var(--s-4);
+  text-align: left; padding: var(--s-4);
   border-top: 1px solid var(--line);
   margin-top: var(--s-2);
 }
@@ -2588,6 +2647,18 @@ body.nav-open { overflow: hidden; }
   line-height: 1.6;
 }
 
+#services,
+#faq,
+#team,
+#about,
+#sample,
+#pilot,
+#cta,
+#how-it-works,
+#trust {
+  scroll-margin-top: 84px;
+}
+
 .cta-contact-note {
   margin-top: var(--s-3);
   font-size: 13px;
@@ -2626,8 +2697,8 @@ body.nav-open { overflow: hidden; }
 .trust-block,
 .faq,
 .cta {
-  content-visibility: auto;
-  contain-intrinsic-size: 1px 800px;
+  content-visibility: visible;
+  contain-intrinsic-size: auto;
 }
 
 /* Lighter backdrop blur on cards (cheaper to composite during scroll).
@@ -2666,8 +2737,8 @@ body.nav-open { overflow: hidden; }
   padding: var(--s-4);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
 }
 .team-cm-photo {
   width: 120px;
