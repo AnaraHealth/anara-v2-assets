@@ -2651,6 +2651,46 @@ body.nav-open { overflow: hidden; }
   line-height: 1.6;
 }
 
+/* Jason feedback pass: keep card and answer copy left-aligned. */
+.team .section-head,
+.faq .section-head,
+.about-team-head {
+  margin-left: 0;
+  margin-right: auto;
+  text-align: left;
+}
+
+.team .section-head .lede,
+.faq .section-head .lede {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.team-card,
+.team-card--lead,
+.team-card--lead .team-tier,
+.team-card--lead h3,
+.team-card--lead p,
+.about-grid,
+.about-col,
+.about-list,
+.about-list li,
+.about-list li > div,
+.about-list strong,
+.about-list span,
+.about-team-intro,
+.about-person,
+.about-person-body,
+.about-role,
+.about-name,
+.about-bio,
+.faq-list,
+.faq-item,
+.faq-item summary,
+.faq-body {
+  text-align: left;
+}
+
 #services,
 #faq,
 #team,
