@@ -379,6 +379,13 @@ h3, .h3 {
 .nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-5px) rotate(-45deg); }
 .nav-cta-mobile { display: none; }
 @media (max-width: 880px) {
+  #anara-v2-reference { padding-top: 68px; }
+  .nav-wrap {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    width: 100%;
+    z-index: 120;
+  }
   .nav-links, .nav-cta-desktop { display: none; }
   .nav-toggle { display: inline-flex; }
   .nav-links.open {
@@ -390,6 +397,7 @@ h3, .h3 {
     top: 68px; left: 0;
     width: 100vw;
     height: calc(100vh - 68px);
+    height: calc(100dvh - 68px);
     background: var(--cream);                  /* solid, no peek-through */
     padding: var(--s-5) var(--s-5) max(var(--s-5), env(safe-area-inset-bottom));
     border-bottom: none;
