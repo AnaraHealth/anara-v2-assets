@@ -115,8 +115,8 @@ Expected post-cutover routing:
 Run the automated verifier against both hosts:
 
 ```bash
-node scripts/verify-static-site.mjs --local . --base-url https://anara.health
-node scripts/verify-static-site.mjs --local . --base-url https://www.anara.health
+node scripts/verify-static-site.mjs --local webflow-site --base-url https://anara.health
+node scripts/verify-static-site.mjs --local webflow-site --base-url https://www.anara.health
 ```
 
 Also verify independently:

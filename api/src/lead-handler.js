@@ -3,7 +3,7 @@
 // Pure request handler for the public lead form. Kept free of the Azure
 // Functions runtime so it can be unit-tested with plain Node.
 
-const MAX = { name: 120, email: 200, company: 160, phone: 40, employees: 40, page: 500 };
+const MAX = { name: 120, email: 200, company: 160, phone: 40, employees: 40, service: 80, page: 500 };
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 function clean(value, limit) {
@@ -34,19 +34,22 @@ function originAllowed(origin, allowed) {
 async function handleLead({ method, headers, rawText }, env, sendMail) {
   const get = (k) => headers[k] || headers[k.toLowerCase()] || '';
   if (method !== 'POST') return { status: 405, json: { code: 405, msg: 'Method not allowed' } };
+  const wantsJson = (get('accept') || '').includes('application/json');
+  const errorResponse = (status, json) => wantsJson
+    ? { status, json }
+    : { status: 303, redirect: `/enquiry-error?code=${status}` };
 
   const allowedOrigins = (env.ALLOWED_ORIGINS || 'https://www.anara.health,https://anara.health')
     .split(',').map((s) => s.trim()).filter(Boolean);
   if (!originAllowed(get('origin'), allowedOrigins)) {
-    return { status: 403, json: { code: 403, msg: 'Origin not allowed' } };
+    return errorResponse(403, { code: 403, msg: 'Origin not allowed' });
   }
 
   const body = parseBody(get('content-type'), rawText);
-  const wantsJson = (get('accept') || '').includes('application/json');
 
   // Honeypot: bots fill hidden fields. Pretend success so they stop retrying.
   if (clean(body._gotcha, 50)) {
-    return wantsJson ? { status: 200, json: { code: 200, msg: 'ok' } } : { status: 303, redirect: '/thank-you' };
+    return wantsJson ? { status: 200, json: { code: 200, msg: 'ok' } } : { status: 303, redirect: '/enquiry-thank-you' };
   }
 
   const lead = {
@@ -55,6 +58,7 @@ async function handleLead({ method, headers, rawText }, env, sendMail) {
     company: clean(body.company, MAX.company),
     phone: clean(body.phone, MAX.phone),
     employees: clean(body.employees, MAX.employees),
+    service: clean(body.service, MAX.service),
     page: clean(body.page, MAX.page),
   };
   const errors = [];
@@ -62,7 +66,7 @@ async function handleLead({ method, headers, rawText }, env, sendMail) {
   if (!lead.email || !EMAIL_RE.test(lead.email)) errors.push('email');
   if (!lead.company) errors.push('company');
   if (errors.length) {
-    return { status: 400, json: { code: 400, msg: 'Missing or invalid fields', fields: errors } };
+    return errorResponse(400, { code: 400, msg: 'Missing or invalid fields', fields: errors });
   }
 
   const to = env.LEAD_TO || 'Sales@anara.health';
@@ -70,7 +74,7 @@ async function handleLead({ method, headers, rawText }, env, sendMail) {
   const subject = `New lead from anara.health: ${lead.company}`;
   const lines = [
     ['Name', lead.name], ['Work email', lead.email], ['Company', lead.company],
-    ['Phone', lead.phone || '-'], ['Employees', lead.employees || '-'], ['Page', lead.page || '-'],
+    ['Phone', lead.phone || '-'], ['Service', lead.service || '-'], ['Employees', lead.employees || '-'], ['Page', lead.page || '-'],
     ['Received', new Date().toISOString()],
   ];
   const text = lines.map(([k, v]) => `${k}: ${v}`).join('\n');
@@ -80,9 +84,10 @@ async function handleLead({ method, headers, rawText }, env, sendMail) {
   try {
     await sendMail({ to, from, replyTo: lead.email, subject, text, html });
   } catch (err) {
-    return { status: 502, json: { code: 502, msg: 'Could not deliver your request. Please email sales@anara.health.' }, error: err };
+    const response = errorResponse(502, { code: 502, msg: 'Could not deliver your request. Please email sales@anara.health.' });
+    return { ...response, error: err };
   }
-  return wantsJson ? { status: 200, json: { code: 200, msg: 'ok' } } : { status: 303, redirect: '/thank-you' };
+  return wantsJson ? { status: 200, json: { code: 200, msg: 'ok' } } : { status: 303, redirect: '/enquiry-thank-you' };
 }
 
 // SendGrid v3 mail/send via fetch. Returns nothing on success, throws on failure.

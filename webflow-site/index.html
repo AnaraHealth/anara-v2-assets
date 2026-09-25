@@ -39,9 +39,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       } else if (path === "terms.html") {
         link.setAttribute("href", "/terms");
       } else if (path === "privacy.html") {
-        link.removeAttribute("href");
-        link.setAttribute("aria-disabled", "true");
-        link.style.pointerEvents = "none";
+        link.setAttribute("href", "/privacy");
       }
     });
   }

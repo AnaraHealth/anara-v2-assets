@@ -1,7 +1,7 @@
 'use strict';
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { handleLead, parseBody, originAllowed, makeAcsSender, makeSender } = require('../src/lead-handler');
+const { handleLead, parseBody, originAllowed, makeSendGridSender, makeAcsSender, makeSender } = require('../src/lead-handler');
 
 const env = { LEAD_TO: 'sales@example.test', LEAD_FROM: 'website@example.test' };
 const form = (o) => new URLSearchParams(o).toString();
@@ -13,10 +13,11 @@ const req = (rawText, extra = {}) => ({
 
 test('valid lead sends one email and returns code 200', async () => {
   const sent = [];
-  const r = await handleLead(req(form({ name: 'A', email: 'a@b.co', company: 'Acme', employees: '50-200' })), env, async (m) => sent.push(m));
+  const r = await handleLead(req(form({ name: 'A', email: 'a@b.co', company: 'Acme', employees: '50-200', service: 'Elder care' })), env, async (m) => sent.push(m));
   assert.equal(r.status, 200); assert.equal(r.json.code, 200);
   assert.equal(sent.length, 1); assert.equal(sent[0].to, 'sales@example.test'); assert.equal(sent[0].replyTo, 'a@b.co');
   assert.match(sent[0].subject, /Acme/);
+  assert.match(sent[0].text, /Service: Elder care/);
 });
 
 test('honeypot filled: pretends success, sends nothing', async () => {
@@ -37,7 +38,14 @@ test('foreign origin rejected', async () => {
 
 test('no-JS fallback (no Accept json) redirects to thank-you', async () => {
   const r = await handleLead(req(form({ name: 'A', email: 'a@b.co', company: 'Acme' }), { accept: 'text/html' }), env, async () => {});
-  assert.equal(r.status, 303); assert.equal(r.redirect, '/thank-you');
+  assert.equal(r.status, 303); assert.equal(r.redirect, '/enquiry-thank-you');
+});
+
+test('no-JS validation and delivery failures redirect to a usable error page', async () => {
+  const invalid = await handleLead(req(form({ name: '', email: 'nope', company: 'Acme' }), { accept: 'text/html' }), env, async () => {});
+  assert.equal(invalid.status, 303); assert.equal(invalid.redirect, '/enquiry-error?code=400');
+  const failed = await handleLead(req(form({ name: 'A', email: 'a@b.co', company: 'Acme' }), { accept: 'text/html' }), env, async () => { throw new Error('boom'); });
+  assert.equal(failed.status, 303); assert.equal(failed.redirect, '/enquiry-error?code=502');
 });
 
 test('mail failure -> 502 with friendly message', async () => {
@@ -68,6 +76,21 @@ test('ACS sender maps fields and requires Succeeded status', async () => {
   assert.equal(calls[0].replyTo[0].address, 'lead@x.co');
   const failing = { beginSend: async () => ({ pollUntilDone: async () => ({ status: 'Failed' }) }) };
   await assert.rejects(makeAcsSender('cs', 's@x', () => failing)({ to: 'a@b.co', from: 'f', replyTo: 'r@x.co', subject: 's', text: 't', html: 'h' }));
+});
+
+test('SendGrid sender maps fields and rejects non-success responses', async () => {
+  const calls = [];
+  const send = makeSendGridSender('key', async (url, options) => {
+    calls.push({ url, options });
+    return { ok: true, status: 202 };
+  });
+  await send({ to: 'a@b.co, c@d.co', from: 'from@x.co', replyTo: 'lead@x.co', subject: 'S', text: 'T', html: '<p>H</p>' });
+  assert.equal(calls[0].url, 'https://api.sendgrid.com/v3/mail/send');
+  assert.equal(calls[0].options.headers.Authorization, 'Bearer key');
+  const body = JSON.parse(calls[0].options.body);
+  assert.deepEqual(body.personalizations[0].to.map((item) => item.email), ['a@b.co', 'c@d.co']);
+  assert.equal(body.reply_to.email, 'lead@x.co');
+  await assert.rejects(makeSendGridSender('key', async () => ({ ok: false, status: 429 }))({ to: 'a@b.co', from: 'f@x.co', replyTo: 'r@x.co', subject: 's', text: 't', html: 'h' }), /429/);
 });
 
 test('makeSender prefers ACS when configured', () => {

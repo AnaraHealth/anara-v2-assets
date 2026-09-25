@@ -45,13 +45,29 @@ echo "== 4. Deploy production =="
 (cd api && npm test --silent)
 SWA_CLI_DEPLOYMENT_TOKEN="$(az staticwebapp secrets list -n "$SWA" -g "$RG" --query properties.apiKey -o tsv)" \
   npx -y @azure/static-web-apps-cli@2 deploy ./webflow-site --api-location ./api --env production \
-  | grep -iE "deploy|error|fail|✔|✖" || true
+  | { grep -iE "deploy|error|fail|✔|✖" || true; }
 
 echo "== 5. Smoke checks (no email is sent) =="
+assert_code() {
+  local label="$1" expected="$2" url="$3" code
+  code=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 20 "$url")
+  if [[ "$code" != "$expected" ]]; then
+    echo "   $label failed: expected $expected, got $code" >&2
+    exit 1
+  fi
+  printf '   %-16s %s\n' "$label" "$code"
+}
 for p in / /privacy.html /terms.html; do
-  printf '   %-16s %s\n' "$p" "$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "https://www.anara.health$p")"
+  assert_code "$p" 200 "https://www.anara.health$p"
 done
-printf '   apex redirect   %s\n' "$(curl -s -o /dev/null -w '%{http_code} -> %{redirect_url}' --max-time 20 https://anara.health/)"
-printf '   api validation  %s\n' "$(curl -s -w ' (%{http_code})' --max-time 40 -X POST -H 'Accept: application/json' -H 'Origin: https://www.anara.health' -d 'name=&email=bad&company=' https://www.anara.health/api/lead)"
+APEX_RESULT=$(curl -sS -o /dev/null -w '%{http_code}|%{redirect_url}' --max-time 20 https://anara.health/)
+APEX_CODE=${APEX_RESULT%%|*}
+APEX_TARGET=${APEX_RESULT#*|}
+case "$APEX_CODE" in 301|302|307|308) ;; *) echo "   apex redirect failed: got $APEX_CODE" >&2; exit 1 ;; esac
+[[ "$APEX_TARGET" == https://www.anara.health/* ]] || { echo "   apex redirect failed: unexpected target" >&2; exit 1; }
+printf '   apex redirect   %s -> %s\n' "$APEX_CODE" "$APEX_TARGET"
+API_CODE=$(curl -sS -o /dev/null -w '%{http_code}' --max-time 40 -X POST -H 'Accept: application/json' -H 'Origin: https://www.anara.health' -d 'name=&email=bad&company=' https://www.anara.health/api/lead)
+[[ "$API_CODE" == 400 ]] || { echo "   api validation failed: expected 400, got $API_CODE" >&2; exit 1; }
+printf '   api validation  %s\n' "$API_CODE"
 echo
 echo "Done. To prove delivery, submit the form on https://www.anara.health/#cta once with a name starting 'TEST'."
