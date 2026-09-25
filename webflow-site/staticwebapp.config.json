@@ -1,0 +1,231 @@
+{
+  "$schema": "https://json.schemastore.org/staticwebapp.config.json",
+  "routes": [
+    {
+      "route": "/privacy",
+      "rewrite": "/privacy.html"
+    },
+    {
+      "route": "/about",
+      "rewrite": "/about/index.html"
+    },
+    {
+      "route": "/about-anara",
+      "rewrite": "/about-anara/index.html"
+    },
+    {
+      "route": "/about-leadership",
+      "rewrite": "/about-leadership/index.html"
+    },
+    {
+      "route": "/anara-for-corporates",
+      "rewrite": "/anara-for-corporates/index.html"
+    },
+    {
+      "route": "/anara-iit-madras",
+      "rewrite": "/anara-iit-madras/index.html"
+    },
+    {
+      "route": "/anara-v2-native",
+      "rewrite": "/anara-v2-native/index.html"
+    },
+    {
+      "route": "/bcibn",
+      "rewrite": "/bcibn/index.html"
+    },
+    {
+      "route": "/booking",
+      "rewrite": "/booking/index.html"
+    },
+    {
+      "route": "/c-booking",
+      "rewrite": "/c-booking/index.html"
+    },
+    {
+      "route": "/contact-us",
+      "rewrite": "/contact-us/index.html"
+    },
+    {
+      "route": "/corporate-booking",
+      "rewrite": "/corporate-booking/index.html"
+    },
+    {
+      "route": "/corporate-test",
+      "rewrite": "/corporate-test/index.html"
+    },
+    {
+      "route": "/corporates-audit",
+      "rewrite": "/corporates-audit/index.html"
+    },
+    {
+      "route": "/corporates-copy",
+      "rewrite": "/corporates-copy/index.html"
+    },
+    {
+      "route": "/healthcare",
+      "rewrite": "/healthcare/index.html"
+    },
+    {
+      "route": "/home-copy-2",
+      "rewrite": "/home-copy-2/index.html"
+    },
+    {
+      "route": "/home-copy-2026",
+      "rewrite": "/home-copy-2026/index.html"
+    },
+    {
+      "route": "/home-doctor-visits",
+      "rewrite": "/home-doctor-visits/index.html"
+    },
+    {
+      "route": "/homepage-copy",
+      "rewrite": "/homepage-copy/index.html"
+    },
+    {
+      "route": "/iitd-alumni",
+      "rewrite": "/iitd-alumni/index.html"
+    },
+    {
+      "route": "/iitm-alumni",
+      "rewrite": "/iitm-alumni/index.html"
+    },
+    {
+      "route": "/iitm-alumni-copy",
+      "rewrite": "/iitm-alumni-copy/index.html"
+    },
+    {
+      "route": "/o-booking",
+      "rewrite": "/o-booking/index.html"
+    },
+    {
+      "route": "/o-thank-you",
+      "rewrite": "/o-thank-you/index.html"
+    },
+    {
+      "route": "/old-home",
+      "rewrite": "/old-home/index.html"
+    },
+    {
+      "route": "/old-home-2",
+      "rewrite": "/old-home-2/index.html"
+    },
+    {
+      "route": "/organized-health-checkup",
+      "rewrite": "/organized-health-checkup/index.html"
+    },
+    {
+      "route": "/organized-health-checkups-thank-you",
+      "rewrite": "/organized-health-checkups-thank-you/index.html"
+    },
+    {
+      "route": "/plans-pricing",
+      "rewrite": "/plans-pricing/index.html"
+    },
+    {
+      "route": "/post-op-care-checklist-for-nris",
+      "rewrite": "/post-op-care-checklist-for-nris/index.html"
+    },
+    {
+      "route": "/post-op-care-checklist-thank-you",
+      "rewrite": "/post-op-care-checklist-thank-you/index.html"
+    },
+    {
+      "route": "/privacy-policy",
+      "rewrite": "/privacy-policy/index.html"
+    },
+    {
+      "route": "/privacypolicy",
+      "rewrite": "/privacypolicy/index.html"
+    },
+    {
+      "route": "/same-day-doctor-visits-chandigarh-india",
+      "rewrite": "/same-day-doctor-visits-chandigarh-india/index.html"
+    },
+    {
+      "route": "/same-day-doctor-visits-delhi-ncr",
+      "rewrite": "/same-day-doctor-visits-delhi-ncr/index.html"
+    },
+    {
+      "route": "/sample",
+      "rewrite": "/sample/index.html"
+    },
+    {
+      "route": "/sign-up",
+      "rewrite": "/sign-up/index.html"
+    },
+    {
+      "route": "/signup-careanywhere",
+      "rewrite": "/signup-careanywhere/index.html"
+    },
+    {
+      "route": "/signup-carecomplete",
+      "rewrite": "/signup-carecomplete/index.html"
+    },
+    {
+      "route": "/signup-careplus",
+      "rewrite": "/signup-careplus/index.html"
+    },
+    {
+      "route": "/subscriber-agreement",
+      "rewrite": "/subscriber-agreement/index.html"
+    },
+    {
+      "route": "/support",
+      "rewrite": "/support/index.html"
+    },
+    {
+      "route": "/terms",
+      "rewrite": "/terms/index.html"
+    },
+    {
+      "route": "/thank-you",
+      "rewrite": "/thank-you/index.html"
+    },
+    {
+      "route": "/vip-healthcare",
+      "rewrite": "/vip-healthcare/index.html"
+    },
+    {
+      "route": "/old-home-3",
+      "redirect": "/o-vsl",
+      "statusCode": 301
+    },
+    {
+      "route": "/same-day-doctor-visits-chandigarh",
+      "redirect": "/same-day-doctor-visits-chandigarh-india",
+      "statusCode": 301
+    },
+    {
+      "route": "/vsl",
+      "redirect": "/healthcare",
+      "statusCode": 301
+    },
+    {
+      "route": "/assets/*",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/404.html"
+    }
+  },
+  "globalHeaders": {
+    "content-security-policy": "default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' https: data: blob:; font-src 'self' https: data:; connect-src 'self' https:; frame-src 'self' https:; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https:; upgrade-insecure-requests",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "permissions-policy": "camera=(), geolocation=(), microphone=(), payment=(), usb=()"
+  },
+  "mimeTypes": {
+    ".avif": "image/avif",
+    ".webp": "image/webp",
+    ".woff": "font/woff",
+    ".woff2": "font/woff2"
+  },
+  "platform": {
+    "apiRuntime": "node:20"
+  }
+}

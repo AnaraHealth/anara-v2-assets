@@ -1,0 +1,1812 @@
+{
+  "sourceOrigin": "https://www.anara.health",
+  "capturedAt": "2026-08-14T22:49:02.758Z",
+  "pages": [
+    {
+      "route": "/",
+      "file": "index.html",
+      "sourceSha256": "36551123842d0c84c0113d9342e5461c789fc2686941f5e17658c99cd6bd9db8",
+      "mirrorSha256": "812dab6b8a02baa216ea713a6700c5098d5d3354b6b1f6435328f33096b3ee5a"
+    },
+    {
+      "route": "/about",
+      "file": "about/index.html",
+      "sourceSha256": "24e99c94bf7797bd47da282d2b6cdc6f87b14c6663ebb2dc0deda957c20b2e5a",
+      "mirrorSha256": "5e900f10d36a05c21ad79aab312c7477fd166e98aaf7aa79c5a92b3fda2ff847"
+    },
+    {
+      "route": "/about-anara",
+      "file": "about-anara/index.html",
+      "sourceSha256": "1558f1c4b35e00349ab89a182f9c0abc203faa7f5237ffb9c9d21b1849f335e0",
+      "mirrorSha256": "1dbc69ea41ee42592c4d1b88033743ed74472e18079d18180d9106f76f8d7011"
+    },
+    {
+      "route": "/about-leadership",
+      "file": "about-leadership/index.html",
+      "sourceSha256": "ad49e2cb6a71b45b60f337ff065877947350ee25098368a702afa14bb8ccfb20",
+      "mirrorSha256": "8b2cf2652ed7c68108434c5490489880ae2c9a9e42d668d069bc6c2325344dcc"
+    },
+    {
+      "route": "/anara-for-corporates",
+      "file": "anara-for-corporates/index.html",
+      "sourceSha256": "27f8703a6efa7cdba24122bd8d4d3c7f456997dd2d2ca8f2dd4b1fe8e52ee873",
+      "mirrorSha256": "405ce4dc3d8eb87d57c3554495fd2f3e243429e2e6253305272d46b2c3d5e9a8"
+    },
+    {
+      "route": "/anara-iit-madras",
+      "file": "anara-iit-madras/index.html",
+      "sourceSha256": "8c179f43f39b0b7153883024572981d230c890d1638f30174ab53cfec6bfac02",
+      "mirrorSha256": "001b1e33b3e3939a5ddaa76e8a5e7864953a3a059742600dd08ee045efceb6b2"
+    },
+    {
+      "route": "/anara-v2-native",
+      "file": "anara-v2-native/index.html",
+      "sourceSha256": "a2a4331c0b341fabef3b68591dbea26ebf47c62a75794a0564409434d1e5c18c",
+      "mirrorSha256": "669a758648758f7f9ac19257ffc3c5e4d9bafcf650c498e46756903f177e9fea"
+    },
+    {
+      "route": "/bcibn",
+      "file": "bcibn/index.html",
+      "sourceSha256": "ff9da65b5bc35ce05cc9266cb46de79bd479b9daaf18a4309e0289b8f3d7b46e",
+      "mirrorSha256": "c7b6290e7cbf3e554f5d62c6801df118a1794aa9987099dd8560f90407258054"
+    },
+    {
+      "route": "/booking",
+      "file": "booking/index.html",
+      "sourceSha256": "cfe92d20634cf8178b2cf33d88cb696b28a0512151f0746547f10275629f1fb8",
+      "mirrorSha256": "ec7d010fa62151e893d864683edb443cec20b08c90259df15a23084fc0dc8287"
+    },
+    {
+      "route": "/c-booking",
+      "file": "c-booking/index.html",
+      "sourceSha256": "476b748e1e8a4e88a78fea483349e0cb723a6e1f6828df6ed944a1b1ba02b985",
+      "mirrorSha256": "a420da082ff4fbd51ee5cec23248b5d5f02fb0596624d72ffb8e1a7b09a94a71"
+    },
+    {
+      "route": "/contact-us",
+      "file": "contact-us/index.html",
+      "sourceSha256": "bfe6602343d748105774f866f92069ef0089d862cda4bc0d3d6d4c27a1f12c9c",
+      "mirrorSha256": "243410a87e90589d3fad89afbc970e2003ca432185f26238b4236ae351479325"
+    },
+    {
+      "route": "/corporate-booking",
+      "file": "corporate-booking/index.html",
+      "sourceSha256": "a86d3786000e0e47a9eb83af592aa47b602973f95f3be67e818f3136f7aaaa9e",
+      "mirrorSha256": "f90223cf265b7cf3b4d7a5491ac34dd6cd76b61ac4e8cb9a3729f7e496d39d3f"
+    },
+    {
+      "route": "/corporate-test",
+      "file": "corporate-test/index.html",
+      "sourceSha256": "1e39885434c59ccc1d973fcd2748a9ad984da4f82a1333002d8e44b4911158f3",
+      "mirrorSha256": "abd4191569e8aa15dc47e017ead3504769e4c6b56d0386ff75518fe23487da67"
+    },
+    {
+      "route": "/corporates-audit",
+      "file": "corporates-audit/index.html",
+      "sourceSha256": "06a58b9ea6a454606cb4e8e6af64fac23058e1f6c22d018fe54c411e2da917cd",
+      "mirrorSha256": "72b1b38ce750bb3578f33f6ac744a1b4c17d5c14539dfa12466de932b3954925"
+    },
+    {
+      "route": "/corporates-copy",
+      "file": "corporates-copy/index.html",
+      "sourceSha256": "e35c4f88c09d6931a76e27b9d54304da39f4e4c7cd71854903336bfa42d13f30",
+      "mirrorSha256": "0d09027ee88958d9cb6a81bbbe29769d056113b9cef40c5d7564d878a8026f1b"
+    },
+    {
+      "route": "/healthcare",
+      "file": "healthcare/index.html",
+      "sourceSha256": "cd3c22e7099da813db01cdc0938d793709909796c08dd3e50ecf98d6561e30fe",
+      "mirrorSha256": "0000cdbab376e663b99ee30311dc825059faa35d14321b26374aadbe4f6e6bd0"
+    },
+    {
+      "route": "/home-copy-2",
+      "file": "home-copy-2/index.html",
+      "sourceSha256": "77ecce9df26c224010c34fd94e1f603e006ef0818e02488c3fd05948aac59e94",
+      "mirrorSha256": "c0cb7103cf049fb392131cf53687c48a846069a20365f0a60eba39c8d762d233"
+    },
+    {
+      "route": "/home-copy-2026",
+      "file": "home-copy-2026/index.html",
+      "sourceSha256": "a451c8787602d8678d5933ed9a0655b80520c4751199ed78d3e53568f3622a3d",
+      "mirrorSha256": "55126d5816d64ed82682f3225f767d178e7a706508c154e38267c0e79fe699a0"
+    },
+    {
+      "route": "/home-doctor-visits",
+      "file": "home-doctor-visits/index.html",
+      "sourceSha256": "a5414a8cc16534afaea4ee2f055c3f4d70d6216bbb37ffafe5509836a4223cd9",
+      "mirrorSha256": "7203d8f2dc553d49195b99a76be135a5309e043cd9386105af73c034a1a97baa"
+    },
+    {
+      "route": "/homepage-copy",
+      "file": "homepage-copy/index.html",
+      "sourceSha256": "18a024ea856f01b184cceccd5f0fe2bfee0cb7f96c30ecf4ba51e2bf5f14ef1f",
+      "mirrorSha256": "9fb5a4b48194249623e57b8a5ff5d8405048091bbc9395a97a20de7594c3508b"
+    },
+    {
+      "route": "/iitd-alumni",
+      "file": "iitd-alumni/index.html",
+      "sourceSha256": "23b95d4e8069a3e71f33ad0bc234b58752995059793cacb1fa4b7f85bad8af54",
+      "mirrorSha256": "07d67fe6353589e5373f8b17dbb28418f3118df35d1b38f75bf6527a9a997655"
+    },
+    {
+      "route": "/iitm-alumni",
+      "file": "iitm-alumni/index.html",
+      "sourceSha256": "80983ae0d38af21bca9df762bcb0e0be88f0b534cb611a3f9e4ec20075b456ee",
+      "mirrorSha256": "d5e7c5691cbd96178dd26c47ca8ddaf75f1aa2c71c5bb0cab66c44151c350e59"
+    },
+    {
+      "route": "/iitm-alumni-copy",
+      "file": "iitm-alumni-copy/index.html",
+      "sourceSha256": "9aced07f6aa27a5935f744bcce8d083f8d2ed10f287309d85330cd7e0c11826a",
+      "mirrorSha256": "9d7b6693d51d1b5e77251d3cab371081512d1085d9dfe8901ee2313de369680f"
+    },
+    {
+      "route": "/o-booking",
+      "file": "o-booking/index.html",
+      "sourceSha256": "378b6d461122b5b04442125312f85b791861a5124496ef8531dfc2ead8f285a3",
+      "mirrorSha256": "9a1bb9e014b2e5408cebcf64d1ce95fad650f481b9941cced1f09345dbca0e1a"
+    },
+    {
+      "route": "/o-thank-you",
+      "file": "o-thank-you/index.html",
+      "sourceSha256": "fc38abc84ddbce3ec239f1e5f44eb38094f6346373f04df2369a1f62f4db6665",
+      "mirrorSha256": "d57b140ad91525023cf86cddd43b0caf8c65a59462c19b68e4d35564b4f45c60"
+    },
+    {
+      "route": "/old-home",
+      "file": "old-home/index.html",
+      "sourceSha256": "cb3fcad1783a933607149072220abe225de3d6200962988dca57ec831ae5e92f",
+      "mirrorSha256": "e0e3cdabcc63ba3ec88d123cf8f75828d4fa66a6fca6745653f705fefcea088c"
+    },
+    {
+      "route": "/old-home-2",
+      "file": "old-home-2/index.html",
+      "sourceSha256": "6b3f1bc21a44aff3cfc170497b233e19ab4597e9a4e086510d4fee580263eacf",
+      "mirrorSha256": "b76b51c47c2c600c55a7cb00dd403c53985feb220bf590d89551a3cc427d02ec"
+    },
+    {
+      "route": "/organized-health-checkup",
+      "file": "organized-health-checkup/index.html",
+      "sourceSha256": "02b39ffffeefe9c6213cd6a0321a56496c5ab19a18310e19004d9853f0e7865a",
+      "mirrorSha256": "3e83eafd71334f9346fd6df681e2b40c2c7c4ec4c965d27e1f2570bfbd858451"
+    },
+    {
+      "route": "/organized-health-checkups-thank-you",
+      "file": "organized-health-checkups-thank-you/index.html",
+      "sourceSha256": "689d6d7346148ce755f0f4daa17e866e858a39ff4540443918eca5607342dbe0",
+      "mirrorSha256": "eb93753a68c3ad12c7565e6b2693a3cb37c3d1d1785c4828ce5a0ab997b26dfd"
+    },
+    {
+      "route": "/plans-pricing",
+      "file": "plans-pricing/index.html",
+      "sourceSha256": "57082c4526c27f77e5535dc9921eda50bf69686f5c599e8b62b178202fbeb1bd",
+      "mirrorSha256": "6f861007771a0762f1333b5f8b2120914cef99dfb02e9ab33f188c8d82f1bbb8"
+    },
+    {
+      "route": "/post-op-care-checklist-for-nris",
+      "file": "post-op-care-checklist-for-nris/index.html",
+      "sourceSha256": "d692c782083c5232ddaf49356062a23dc79749b38a0475d58033f9e334f525b5",
+      "mirrorSha256": "7e65636855d705675e9e4868612fa146a14cad02caab58f74538ffe88dea2045"
+    },
+    {
+      "route": "/post-op-care-checklist-thank-you",
+      "file": "post-op-care-checklist-thank-you/index.html",
+      "sourceSha256": "fd20991781d6263b684501e34a6baf2e9127b15c7dd379149b622ecd5855392c",
+      "mirrorSha256": "fd50ba327ece61246fec5772fbefddb435a96bf3f5490cfdb774366fb769a46e"
+    },
+    {
+      "route": "/privacy-policy",
+      "file": "privacy-policy/index.html",
+      "sourceSha256": "f185ddf3fc91443af1ebe08630ec4837c77c123f4906b1208e990ff9c4106503",
+      "mirrorSha256": "39f3ca4393d0d3385655260a0d48b63d69c2cae80e120542cbd8252af8195190"
+    },
+    {
+      "route": "/privacypolicy",
+      "file": "privacypolicy/index.html",
+      "sourceSha256": "bd857a9c1523f30a8d321179f4422d456be8ed81fcb731132162903fa9c43525",
+      "mirrorSha256": "81da0b5b64e5c060ba56fad87c1c032dfeb5470c0f8e4934d10733f18190adec"
+    },
+    {
+      "route": "/same-day-doctor-visits-chandigarh-india",
+      "file": "same-day-doctor-visits-chandigarh-india/index.html",
+      "sourceSha256": "e27ec8341ea120dea8c84bcb6ab60ef79f03ed5cc3b7b8a66c0513193ba61c9d",
+      "mirrorSha256": "bce7bd46da6ea70995d93f6988937d4da16c0717f10908b70829444244bd6bbc"
+    },
+    {
+      "route": "/same-day-doctor-visits-delhi-ncr",
+      "file": "same-day-doctor-visits-delhi-ncr/index.html",
+      "sourceSha256": "4e44ca68cd70387aaa0c0eb6fa8fd75f811a413f519e3303238ab80359ff74b8",
+      "mirrorSha256": "e24ff52c694c6eacde19aee51d0afc856c7a666c2b89d627c8063a549dd02561"
+    },
+    {
+      "route": "/sample",
+      "file": "sample/index.html",
+      "sourceSha256": "2e167f7b8e108b92613cd7c1dc2706627e685d571ce63f6ca7352075ec5d8bb9",
+      "mirrorSha256": "4f82a9165bd383eff35a151ee815481d34e24fc90c622ae8cad44351aecdaeed"
+    },
+    {
+      "route": "/sign-up",
+      "file": "sign-up/index.html",
+      "sourceSha256": "49563bdbf7306a0a61adec8675420773cc8b70dce360e0c4f7f45831c138cb42",
+      "mirrorSha256": "2ad8fb05a93e8c07a8c7cc002b49b6291c27d9a23c1009d8dde2ee7cd642cae5"
+    },
+    {
+      "route": "/signup-careanywhere",
+      "file": "signup-careanywhere/index.html",
+      "sourceSha256": "314951219b88dcf6bcfee05b9be0a850c5c2bfd6b0e8bf5ddd03ccffdaa21c73",
+      "mirrorSha256": "c0b8e415e5b5085678f7f4025079f62672c039820e981981ac5250c9d4bb4094"
+    },
+    {
+      "route": "/signup-carecomplete",
+      "file": "signup-carecomplete/index.html",
+      "sourceSha256": "9b6fc32c92b3d9b901968f432a89020f2517d5dce99fd5c811cfd5b7fd83c2cd",
+      "mirrorSha256": "c0420a5f5860d7152d5b020e6fb2c612b85100363dc898e3f99e14f938b0121b"
+    },
+    {
+      "route": "/signup-careplus",
+      "file": "signup-careplus/index.html",
+      "sourceSha256": "ad78ee7cb905e112b3afc2d57410fab289834d1a16e156fab3aa964a986bec88",
+      "mirrorSha256": "497f0c0b5eb9e7cb826d0ca3f58763f0c6b5c6c448249170ad8bef52d6a803b2"
+    },
+    {
+      "route": "/subscriber-agreement",
+      "file": "subscriber-agreement/index.html",
+      "sourceSha256": "49247c2b5e4d9f6c6ee2d59bdc6406cc292dd0f15c140d27b5e6de774d089c32",
+      "mirrorSha256": "28218cc5c69cbd9a05934d7cd45ae5a40b19d62e0886f66f6d128a347dbaf62e"
+    },
+    {
+      "route": "/support",
+      "file": "support/index.html",
+      "sourceSha256": "2811c510b67839f279fcd05774a8973c279e25c383a54ff59348b6e82d41d6bd",
+      "mirrorSha256": "9d07e22225c21db1d622fc2dd71955a8ed65cf420e7e3a42c5cc6b34f863672d"
+    },
+    {
+      "route": "/terms",
+      "file": "terms/index.html",
+      "sourceSha256": "180fe0b58a8d6cd36e778d46a47db659795d8dfeb8f8a96d69013853bc74c16c",
+      "mirrorSha256": "04545c2f0e274fb2684f601136dc892df5a3b46acd890ec5c437eecbb0bfc2a3"
+    },
+    {
+      "route": "/thank-you",
+      "file": "thank-you/index.html",
+      "sourceSha256": "3d631f9d02c56a8e10bcf488b895de5e0e8914aa10214c0e16ba361ba0b9569e",
+      "mirrorSha256": "c694095f699e15a22f02bfdd43ddaef0c28fcdcbae60bcb456cd4896f888c5fe"
+    },
+    {
+      "route": "/vip-healthcare",
+      "file": "vip-healthcare/index.html",
+      "sourceSha256": "7b9087ffb392fc7f85af6b2569ee1b749682e51a029158188b2401b0f426c9d4",
+      "mirrorSha256": "4f804d2cd35e28d024cdc34cc635af9f3f6a9d1aab49baba90afe504b68a3a4f"
+    }
+  ],
+  "redirects": [
+    {
+      "route": "/old-home-3",
+      "status": 301,
+      "location": "https://www.anara.health/o-vsl"
+    },
+    {
+      "route": "/same-day-doctor-visits-chandigarh",
+      "status": 301,
+      "location": "https://www.anara.health/same-day-doctor-visits-chandigarh-india"
+    },
+    {
+      "route": "/vsl",
+      "status": 301,
+      "location": "https://www.anara.health/healthcare"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+      "file": "assets/ajax.googleapis.com/012e56dad079c254-webfont.js",
+      "contentType": "text/javascript; charset=UTF-8",
+      "bytes": 13188
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/anara-v2-glass.min.css",
+      "file": "assets/cdn.jsdelivr.net/2a4f5a7cd9bfb664-anara-v2-glass.min.css",
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 63588
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/anara-v2-glass.min.js",
+      "file": "assets/cdn.jsdelivr.net/9632ed691455830e-anara-v2-glass.min.js",
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 9720
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/Anara.png",
+      "file": "assets/cdn.jsdelivr.net/de109db29dd202d0-Anara.png",
+      "contentType": "image/png",
+      "bytes": 2246
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/fonts/fraunces-latin-ext.woff2",
+      "file": "assets/cdn.jsdelivr.net/d88d5adad842109b-fraunces-latin-ext.woff2",
+      "contentType": "font/woff2",
+      "bytes": 59388
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/fonts/fraunces-latin.woff2",
+      "file": "assets/cdn.jsdelivr.net/2e9bc8731151139d-fraunces-latin.woff2",
+      "contentType": "font/woff2",
+      "bytes": 67304
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/fonts/outfit-latin-ext.woff2",
+      "file": "assets/cdn.jsdelivr.net/f29ff45c447373c5-outfit-latin-ext.woff2",
+      "contentType": "font/woff2",
+      "bytes": 14808
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/fonts/outfit-latin.woff2",
+      "file": "assets/cdn.jsdelivr.net/4af70849fd5b2e6b-outfit-latin.woff2",
+      "contentType": "font/woff2",
+      "bytes": 32292
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/image2.avif",
+      "file": "assets/cdn.jsdelivr.net/5fbf49171d5509bf-image2.avif",
+      "contentType": "image/avif",
+      "bytes": 11997
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/image2.jpg",
+      "file": "assets/cdn.jsdelivr.net/9a235f1a67ca1d28-image2.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 48023
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/image2.webp",
+      "file": "assets/cdn.jsdelivr.net/d864756ffa9f154c-image2.webp",
+      "contentType": "image/webp",
+      "bytes": 18454
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/indian-family-1100.avif",
+      "file": "assets/cdn.jsdelivr.net/6685e9b019216d32-indian-family-1100.avif",
+      "contentType": "image/avif",
+      "bytes": 135499
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/indian-family-1100.png",
+      "file": "assets/cdn.jsdelivr.net/81053c3c75b6aacd-indian-family-1100.png",
+      "contentType": "image/png",
+      "bytes": 232194
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/indian-family-1100.webp",
+      "file": "assets/cdn.jsdelivr.net/648ab3509106cf84-indian-family-1100.webp",
+      "contentType": "image/webp",
+      "bytes": 112612
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/indian-family-1500.avif",
+      "file": "assets/cdn.jsdelivr.net/cfd1301a48d13f67-indian-family-1500.avif",
+      "contentType": "image/avif",
+      "bytes": 228869
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/indian-family-1500.png",
+      "file": "assets/cdn.jsdelivr.net/49bd228573475377-indian-family-1500.png",
+      "contentType": "image/png",
+      "bytes": 397288
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/indian-family-1500.webp",
+      "file": "assets/cdn.jsdelivr.net/6b946a727d5c76f3-indian-family-1500.webp",
+      "contentType": "image/webp",
+      "bytes": 182996
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/indian-family-700.avif",
+      "file": "assets/cdn.jsdelivr.net/a1ab4e2bf709216b-indian-family-700.avif",
+      "contentType": "image/avif",
+      "bytes": 67578
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/indian-family-700.png",
+      "file": "assets/cdn.jsdelivr.net/72cb2ad81822ec03-indian-family-700.png",
+      "contentType": "image/png",
+      "bytes": 108813
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/indian-family-700.webp",
+      "file": "assets/cdn.jsdelivr.net/71d98f7bad388ee1-indian-family-700.webp",
+      "contentType": "image/webp",
+      "bytes": 57242
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/onsite-clinic-1200.avif",
+      "file": "assets/cdn.jsdelivr.net/ed8c3ecc99c761cd-onsite-clinic-1200.avif",
+      "contentType": "image/avif",
+      "bytes": 21671
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/onsite-clinic-1200.webp",
+      "file": "assets/cdn.jsdelivr.net/325a5e10384abe00-onsite-clinic-1200.webp",
+      "contentType": "image/webp",
+      "bytes": 30582
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/onsite-clinic-600.avif",
+      "file": "assets/cdn.jsdelivr.net/c22dcba6d4238a13-onsite-clinic-600.avif",
+      "contentType": "image/avif",
+      "bytes": 9827
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/onsite-clinic-600.webp",
+      "file": "assets/cdn.jsdelivr.net/f76c7ae335f81ed1-onsite-clinic-600.webp",
+      "contentType": "image/webp",
+      "bytes": 13418
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/onsite-clinic-900.avif",
+      "file": "assets/cdn.jsdelivr.net/efe4415097015ca3-onsite-clinic-900.avif",
+      "contentType": "image/avif",
+      "bytes": 16707
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/onsite-clinic-900.webp",
+      "file": "assets/cdn.jsdelivr.net/3789ca5ff9bf010b-onsite-clinic-900.webp",
+      "contentType": "image/webp",
+      "bytes": 23180
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-abinash-270.avif",
+      "file": "assets/cdn.jsdelivr.net/ad6831e19c9d5ff8-team-abinash-270.avif",
+      "contentType": "image/avif",
+      "bytes": 4662
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-abinash-270.webp",
+      "file": "assets/cdn.jsdelivr.net/dff58b2231253006-team-abinash-270.webp",
+      "contentType": "image/webp",
+      "bytes": 6384
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-abinash-540.avif",
+      "file": "assets/cdn.jsdelivr.net/cb5744b3a2a6bc36-team-abinash-540.avif",
+      "contentType": "image/avif",
+      "bytes": 13542
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-abinash-540.webp",
+      "file": "assets/cdn.jsdelivr.net/da4bfee27fd3b0d4-team-abinash-540.webp",
+      "contentType": "image/webp",
+      "bytes": 19364
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-ebenezer-270.avif",
+      "file": "assets/cdn.jsdelivr.net/e420fd430ecd285d-team-ebenezer-270.avif",
+      "contentType": "image/avif",
+      "bytes": 5053
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-ebenezer-270.webp",
+      "file": "assets/cdn.jsdelivr.net/5e3b4d0d100f5e2a-team-ebenezer-270.webp",
+      "contentType": "image/webp",
+      "bytes": 7844
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-ebenezer-540.avif",
+      "file": "assets/cdn.jsdelivr.net/f380f87c22dfd7f0-team-ebenezer-540.avif",
+      "contentType": "image/avif",
+      "bytes": 15246
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-ebenezer-540.webp",
+      "file": "assets/cdn.jsdelivr.net/3b40f125182a12b2-team-ebenezer-540.webp",
+      "contentType": "image/webp",
+      "bytes": 22634
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-ekta-270.avif",
+      "file": "assets/cdn.jsdelivr.net/bf62933d16518266-team-ekta-270.avif",
+      "contentType": "image/avif",
+      "bytes": 5850
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-ekta-270.webp",
+      "file": "assets/cdn.jsdelivr.net/c1c4b38aede47c73-team-ekta-270.webp",
+      "contentType": "image/webp",
+      "bytes": 9374
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-ekta-540.avif",
+      "file": "assets/cdn.jsdelivr.net/c2278f6e9768c346-team-ekta-540.avif",
+      "contentType": "image/avif",
+      "bytes": 13651
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-ekta-540.webp",
+      "file": "assets/cdn.jsdelivr.net/a27d61901cd127bf-team-ekta-540.webp",
+      "contentType": "image/webp",
+      "bytes": 20810
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-jason-270.avif",
+      "file": "assets/cdn.jsdelivr.net/146c4d7297452845-team-jason-270.avif",
+      "contentType": "image/avif",
+      "bytes": 5015
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-jason-270.webp",
+      "file": "assets/cdn.jsdelivr.net/535f02bbf1eff010-team-jason-270.webp",
+      "contentType": "image/webp",
+      "bytes": 5590
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-jason-540.avif",
+      "file": "assets/cdn.jsdelivr.net/5613b8a3b0830b51-team-jason-540.avif",
+      "contentType": "image/avif",
+      "bytes": 7094
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-jason-540.webp",
+      "file": "assets/cdn.jsdelivr.net/463607bb6f14e093-team-jason-540.webp",
+      "contentType": "image/webp",
+      "bytes": 9092
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-niranjan-270.avif",
+      "file": "assets/cdn.jsdelivr.net/fb6a9a5580846a22-team-niranjan-270.avif",
+      "contentType": "image/avif",
+      "bytes": 5209
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-niranjan-270.webp",
+      "file": "assets/cdn.jsdelivr.net/c5f9e20d8cf43a1b-team-niranjan-270.webp",
+      "contentType": "image/webp",
+      "bytes": 7040
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-niranjan-540.avif",
+      "file": "assets/cdn.jsdelivr.net/af21f454c42396ef-team-niranjan-540.avif",
+      "contentType": "image/avif",
+      "bytes": 15551
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-niranjan-540.webp",
+      "file": "assets/cdn.jsdelivr.net/636f0c5006ebe997-team-niranjan-540.webp",
+      "contentType": "image/webp",
+      "bytes": 19110
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-rahul-540.avif",
+      "file": "assets/cdn.jsdelivr.net/4195fa73272ca6c4-team-rahul-540.avif",
+      "contentType": "image/avif",
+      "bytes": 10015
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-rahul-540.webp",
+      "file": "assets/cdn.jsdelivr.net/fc12d308299870f7-team-rahul-540.webp",
+      "contentType": "image/webp",
+      "bytes": 20266
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-rahul-800.avif",
+      "file": "assets/cdn.jsdelivr.net/6e1fc3e0209717af-team-rahul-800.avif",
+      "contentType": "image/avif",
+      "bytes": 14480
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-rahul-800.webp",
+      "file": "assets/cdn.jsdelivr.net/04fd16833ebbfdb9-team-rahul-800.webp",
+      "contentType": "image/webp",
+      "bytes": 31698
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-seema-270.avif",
+      "file": "assets/cdn.jsdelivr.net/b4d5ff987d42c471-team-seema-270.avif",
+      "contentType": "image/avif",
+      "bytes": 8470
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-seema-270.webp",
+      "file": "assets/cdn.jsdelivr.net/1f202f83e27c36dc-team-seema-270.webp",
+      "contentType": "image/webp",
+      "bytes": 13798
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-seema-540.avif",
+      "file": "assets/cdn.jsdelivr.net/5f364fa36108ddd2-team-seema-540.avif",
+      "contentType": "image/avif",
+      "bytes": 25387
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/AnaraHealth/anara-v2-assets@a4cd7497bb6a0ce072d1c7a49721976b9a5a0f00/team-seema-540.webp",
+      "file": "assets/cdn.jsdelivr.net/d34e7b3f0d7388fc-team-seema-540.webp",
+      "contentType": "image/webp",
+      "bytes": 39824
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@flowbase-co/boosters-countup@1.0.0/dist/countup.min.js",
+      "file": "assets/cdn.jsdelivr.net/aa74cda28f16def7-countup.min.js",
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 2215
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/lucide-react@0.292.0/dist/lucide-react.min.js",
+      "failed": true,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/62434fa732124a0fb112aab4/62434fa732124a28a812aad9_placeholder%202.svg",
+      "file": "assets/cdn.prod.website-files.com/7d0f73fe6d062806-62434fa732124a28a812aad9_placeholder-2.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 3373
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/62434fa732124a0fb112aab4/62434fa732124a29b112aac4_ic%20Arrow%20Go.svg",
+      "file": "assets/cdn.prod.website-files.com/b25c09907222aed4-62434fa732124a29b112aac4_ic-Arrow-Go.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 331
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/62434fa732124a0fb112aab4/62434fa732124a332512aaee_placeholder-1.svg",
+      "file": "assets/cdn.prod.website-files.com/6944ee1c43518280-62434fa732124a332512aaee_placeholder-1.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 9185
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/64c2f23a2589c852bdacd637_Placeholder%20Image%20-%20Landscape.svg",
+      "file": "assets/cdn.prod.website-files.com/8c9d533c1ad894cd-64c2f23a2589c852bdacd637_Placeholder-Image---Landscape.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 1014
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/64c2f23a2589c852bdacd657_Anara%20Homepage%20Image.png",
+      "file": "assets/cdn.prod.website-files.com/b6ed056818e312cd-64c2f23a2589c852bdacd657_Anara-Homepage-Image.png",
+      "contentType": "image/png",
+      "bytes": 960110
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/64c2f23a2589c852bdacd657_Anara%2520Homepage%2520Image-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/812e02f5ca6c549f-64c2f23a2589c852bdacd657_Anara-20Homepage-20Image-p-500.png",
+      "contentType": "image/png",
+      "bytes": 84895
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/64c2f23a2589c852bdacd657_Anara%2520Homepage%2520Image-p-800.png",
+      "file": "assets/cdn.prod.website-files.com/86588523386a9cf7-64c2f23a2589c852bdacd657_Anara-20Homepage-20Image-p-800.png",
+      "contentType": "image/png",
+      "bytes": 184446
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/64c2f23a2589c852bdacd658_Logo_white-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/f344efe7eac914e7-64c2f23a2589c852bdacd658_Logo_white-p-500.png",
+      "contentType": "image/png",
+      "bytes": 9530
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/64c2f23a2589c852bdacd658_Logo_white.png",
+      "file": "assets/cdn.prod.website-files.com/6087bbc6ac2ccd8d-64c2f23a2589c852bdacd658_Logo_white.png",
+      "contentType": "image/png",
+      "bytes": 11242
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/64c2f23a2589c852bdacd66f_Logo_White_325.png",
+      "file": "assets/cdn.prod.website-files.com/aa2b04fc5059b952-64c2f23a2589c852bdacd66f_Logo_White_325.png",
+      "contentType": "image/png",
+      "bytes": 5189
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/64c2f23a2589c852bdacd670_Anara_Favicon.png",
+      "file": "assets/cdn.prod.website-files.com/2b4f51c7c8aea8b9-64c2f23a2589c852bdacd670_Anara_Favicon.png",
+      "contentType": "image/png",
+      "bytes": 664
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/64c2f56e686438dbe40b3c7f_Webclip.png",
+      "file": "assets/cdn.prod.website-files.com/1b7d39661ce318c7-64c2f56e686438dbe40b3c7f_Webclip.png",
+      "contentType": "image/png",
+      "bytes": 5799
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/64c6c75fbc36807fdc47414e_Anara_logo_400.png",
+      "file": "assets/cdn.prod.website-files.com/bbf01953182d48b2-64c6c75fbc36807fdc47414e_Anara_logo_400.png",
+      "contentType": "image/png",
+      "bytes": 5407
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509d878ad0ffb82f49dc17d_Hero%20Image.png",
+      "file": "assets/cdn.prod.website-files.com/5182ec49c835fe43-6509d878ad0ffb82f49dc17d_Hero-Image.png",
+      "contentType": "image/png",
+      "bytes": 816240
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509d878ad0ffb82f49dc17d_Hero%2520Image-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/4634a1a52be48a66-6509d878ad0ffb82f49dc17d_Hero-20Image-p-500.png",
+      "contentType": "image/png",
+      "bytes": 100066
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db5c3f140624483c88bd_Anara_EmergencyCare.png",
+      "file": "assets/cdn.prod.website-files.com/fcd85d2f0892df45-6509db5c3f140624483c88bd_Anara_EmergencyCare.png",
+      "contentType": "image/png",
+      "bytes": 222007
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db673eff06cb1866b8a9_Anara_ElectiveProcedures.png",
+      "file": "assets/cdn.prod.website-files.com/6c4e4ef80fff0f13-6509db673eff06cb1866b8a9_Anara_ElectiveProcedures.png",
+      "contentType": "image/png",
+      "bytes": 249087
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db6cc9d79e086095e894_Anara_WellBeing.png",
+      "file": "assets/cdn.prod.website-files.com/a9e9448a82586e3f-6509db6cc9d79e086095e894_Anara_WellBeing.png",
+      "contentType": "image/png",
+      "bytes": 336763
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db714d144fb34bf625c3_Anara_ChronicCare.png",
+      "file": "assets/cdn.prod.website-files.com/6e954a28a639930c-6509db714d144fb34bf625c3_Anara_ChronicCare.png",
+      "contentType": "image/png",
+      "bytes": 266840
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db762e63288f509748a0_Icon_Phone_100.png",
+      "file": "assets/cdn.prod.website-files.com/41499fb9578b86d2-6509db762e63288f509748a0_Icon_Phone_100.png",
+      "contentType": "image/png",
+      "bytes": 2616
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db762e63288f509748a2_Icon_Talk_100.png",
+      "file": "assets/cdn.prod.website-files.com/7c84eb1127649bd2-6509db762e63288f509748a2_Icon_Talk_100.png",
+      "contentType": "image/png",
+      "bytes": 2534
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db762e63288f509748a4_Icon_Smartphone_100.png",
+      "file": "assets/cdn.prod.website-files.com/d37ed6f1debed07d-6509db762e63288f509748a4_Icon_Smartphone_100.png",
+      "contentType": "image/png",
+      "bytes": 2425
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db762e63288f509748a6_Icon_Home_100.png",
+      "file": "assets/cdn.prod.website-files.com/276e02422b5f68ac-6509db762e63288f509748a6_Icon_Home_100.png",
+      "contentType": "image/png",
+      "bytes": 2459
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db762e63288f509748a8_Icon_Visit_100.png",
+      "file": "assets/cdn.prod.website-files.com/78a8c85ac6c97692-6509db762e63288f509748a8_Icon_Visit_100.png",
+      "contentType": "image/png",
+      "bytes": 2552
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db762e63288f509748aa_Icon_Injury_100.png",
+      "file": "assets/cdn.prod.website-files.com/6c9b17015532e35c-6509db762e63288f509748aa_Icon_Injury_100.png",
+      "contentType": "image/png",
+      "bytes": 2867
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db762e63288f509748ac_Icon_Apollo_100.png",
+      "file": "assets/cdn.prod.website-files.com/7dd78c2e449c984b-6509db762e63288f509748ac_Icon_Apollo_100.png",
+      "contentType": "image/png",
+      "bytes": 3832
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db762e63288f509748ae_Icon_Checklist_100.png",
+      "file": "assets/cdn.prod.website-files.com/ed083229815b4cbd-6509db762e63288f509748ae_Icon_Checklist_100.png",
+      "contentType": "image/png",
+      "bytes": 2716
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db762e63288f509748b0_Icon_Transport_100.png",
+      "file": "assets/cdn.prod.website-files.com/0cd55213f506fff1-6509db762e63288f509748b0_Icon_Transport_100.png",
+      "contentType": "image/png",
+      "bytes": 2644
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db762e63288f509748b2_Icon_Test_100.png",
+      "file": "assets/cdn.prod.website-files.com/a16a982bb9e24326-6509db762e63288f509748b2_Icon_Test_100.png",
+      "contentType": "image/png",
+      "bytes": 2598
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db7c1838bdcd05e9188e_Anara_App.png",
+      "file": "assets/cdn.prod.website-files.com/6f7315518c47d2e7-6509db7c1838bdcd05e9188e_Anara_App.png",
+      "contentType": "image/png",
+      "bytes": 405379
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6509db885c9c71dac2e21b9e_Anara_Difference.png",
+      "file": "assets/cdn.prod.website-files.com/8d690eceb7c77c87-6509db885c9c71dac2e21b9e_Anara_Difference.png",
+      "contentType": "image/png",
+      "bytes": 258538
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b547527157106c856e188_Screenshot%202023-09-20%20at%201.21.28%20PM.png",
+      "file": "assets/cdn.prod.website-files.com/8a33d41f648a2192-650b547527157106c856e188_Screenshot-2023-09-20-at-1.21.28-PM.png",
+      "contentType": "image/png",
+      "bytes": 511706
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b547582fb72ebc8ce0285_Screenshot%202023-09-20%20at%201.18.57%20PM-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/b591fdd5e5e4680d-650b547582fb72ebc8ce0285_Screenshot-2023-09-20-at-1.18.57-PM-p-500.png",
+      "contentType": "image/png",
+      "bytes": 132883
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b547582fb72ebc8ce0285_Screenshot%202023-09-20%20at%201.18.57%20PM.png",
+      "file": "assets/cdn.prod.website-files.com/a35c8162131b03d4-650b547582fb72ebc8ce0285_Screenshot-2023-09-20-at-1.18.57-PM.png",
+      "contentType": "image/png",
+      "bytes": 631521
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b5475e72bf899d687eff7_Screenshot%202023-09-20%20at%201.20.58%20PM-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/eb235e2a1d832bf1-650b5475e72bf899d687eff7_Screenshot-2023-09-20-at-1.20.58-PM-p-500.png",
+      "contentType": "image/png",
+      "bytes": 136458
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b5475e72bf899d687eff7_Screenshot%202023-09-20%20at%201.20.58%20PM.png",
+      "file": "assets/cdn.prod.website-files.com/154f2e6d64aea0b3-650b5475e72bf899d687eff7_Screenshot-2023-09-20-at-1.20.58-PM.png",
+      "contentType": "image/png",
+      "bytes": 821850
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b5475fe07bdfe22735738_Screenshot%202023-09-20%20at%201.12.25%20PM-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/9ff3aacc2063b407-650b5475fe07bdfe22735738_Screenshot-2023-09-20-at-1.12.25-PM-p-500.png",
+      "contentType": "image/png",
+      "bytes": 93845
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b5475fe07bdfe22735738_Screenshot%202023-09-20%20at%201.12.25%20PM.png",
+      "file": "assets/cdn.prod.website-files.com/442355993729b92a-650b5475fe07bdfe22735738_Screenshot-2023-09-20-at-1.12.25-PM.png",
+      "contentType": "image/png",
+      "bytes": 666617
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b59baf870c9b76c8b65f7_Apollo%20Logo_sqaure-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/2029525abf0c4c95-650b59baf870c9b76c8b65f7_Apollo-Logo_sqaure-p-500.png",
+      "contentType": "image/png",
+      "bytes": 11614
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b59baf870c9b76c8b65f7_Apollo%20Logo_sqaure.png",
+      "file": "assets/cdn.prod.website-files.com/6132f699df27d6ec-650b59baf870c9b76c8b65f7_Apollo-Logo_sqaure.png",
+      "contentType": "image/png",
+      "bytes": 38422
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b5dcde65919ecb82bd804_Icon_Team_100.png",
+      "file": "assets/cdn.prod.website-files.com/7206f59d7dcd012f-650b5dcde65919ecb82bd804_Icon_Team_100.png",
+      "contentType": "image/png",
+      "bytes": 2098
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b61b275dd782f49aee113_Chennai-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/e384582e98856f41-650b61b275dd782f49aee113_Chennai-p-500.png",
+      "contentType": "image/png",
+      "bytes": 26160
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b61b275dd782f49aee113_Chennai.png",
+      "file": "assets/cdn.prod.website-files.com/61998fe81881c5f5-650b61b275dd782f49aee113_Chennai.png",
+      "contentType": "image/png",
+      "bytes": 40217
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b61c756716dd7cf087767_Hyderabad-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/75570e68891aa80f-650b61c756716dd7cf087767_Hyderabad-p-500.png",
+      "contentType": "image/png",
+      "bytes": 23651
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b61c756716dd7cf087767_Hyderabad.png",
+      "file": "assets/cdn.prod.website-files.com/27e120db64e76fd8-650b61c756716dd7cf087767_Hyderabad.png",
+      "contentType": "image/png",
+      "bytes": 35195
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b64483784c1962e95cb88_Screenshot%202023-09-20%20at%202.22.20%20PM.png",
+      "file": "assets/cdn.prod.website-files.com/671111a2d3bfb94c-650b64483784c1962e95cb88_Screenshot-2023-09-20-at-2.22.20-PM.png",
+      "contentType": "image/png",
+      "bytes": 405261
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b6489655fb82d4adddcf2_Screenshot%202023-09-20%20at%201.13.53%20PM-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/e979a37d3b5f7118-650b6489655fb82d4adddcf2_Screenshot-2023-09-20-at-1.13.53-PM-p-500.png",
+      "contentType": "image/png",
+      "bytes": 78064
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b6489655fb82d4adddcf2_Screenshot%202023-09-20%20at%201.13.53%20PM-p-800.png",
+      "file": "assets/cdn.prod.website-files.com/31f3e49a7d115a08-650b6489655fb82d4adddcf2_Screenshot-2023-09-20-at-1.13.53-PM-p-800.png",
+      "contentType": "image/png",
+      "bytes": 171327
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b6489655fb82d4adddcf2_Screenshot%202023-09-20%20at%201.13.53%20PM.png",
+      "file": "assets/cdn.prod.website-files.com/1ce2b84c2d40e635-650b6489655fb82d4adddcf2_Screenshot-2023-09-20-at-1.13.53-PM.png",
+      "contentType": "image/png",
+      "bytes": 853593
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b66ff74dfcda00d0c1ae6_About%20Image-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/3d2d0c3a6a31023d-650b66ff74dfcda00d0c1ae6_About-Image-p-500.png",
+      "contentType": "image/png",
+      "bytes": 53853
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b66ff74dfcda00d0c1ae6_About%20Image-p-800.png",
+      "file": "assets/cdn.prod.website-files.com/b89905a44bdbed2e-650b66ff74dfcda00d0c1ae6_About-Image-p-800.png",
+      "contentType": "image/png",
+      "bytes": 116660
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b66ff74dfcda00d0c1ae6_About%20Image.png",
+      "file": "assets/cdn.prod.website-files.com/13e907a125ce12be-650b66ff74dfcda00d0c1ae6_About-Image.png",
+      "contentType": "image/png",
+      "bytes": 633982
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/650b74fdf3562fc178b50a8d_Icon_Team_100.png",
+      "file": "assets/cdn.prod.website-files.com/040fe819b073da2f-650b74fdf3562fc178b50a8d_Icon_Team_100.png",
+      "contentType": "image/png",
+      "bytes": 2376
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/651319cf21db801b97a0e413_ProfilePic_Rahul.png",
+      "file": "assets/cdn.prod.website-files.com/c48900a46ce52362-651319cf21db801b97a0e413_ProfilePic_Rahul.png",
+      "contentType": "image/png",
+      "bytes": 75477
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/65135ba04e0a87f2f337f3ea_245-2451831_iit-madras-logo-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/67a2072ad12a6514-65135ba04e0a87f2f337f3ea_245-2451831_iit-madras-logo-p-500.png",
+      "contentType": "image/png",
+      "bytes": 99092
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/65135ba04e0a87f2f337f3ea_245-2451831_iit-madras-logo-p-800.png",
+      "file": "assets/cdn.prod.website-files.com/c036e25d13cb4780-65135ba04e0a87f2f337f3ea_245-2451831_iit-madras-logo-p-800.png",
+      "contentType": "image/png",
+      "bytes": 210503
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/65135ba04e0a87f2f337f3ea_245-2451831_iit-madras-logo.png",
+      "file": "assets/cdn.prod.website-files.com/9bf02dbc43322f86-65135ba04e0a87f2f337f3ea_245-2451831_iit-madras-logo.png",
+      "contentType": "image/png",
+      "bytes": 505984
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/651378bfb636704d462550f6_noun-emergency-2780542-8E108C.svg",
+      "file": "assets/cdn.prod.website-files.com/43b467acbc22cc08-651378bfb636704d462550f6_noun-emergency-2780542-8E108C.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 2442
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/651378d17ca95e90b341b72f_noun-wellness-4374314-8E108C.svg",
+      "file": "assets/cdn.prod.website-files.com/6d4536be7e45a78f-651378d17ca95e90b341b72f_noun-wellness-4374314-8E108C.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 3780
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/651378eab636704d46258327_noun-healthcare-2411567-8E108C.svg",
+      "file": "assets/cdn.prod.website-files.com/c621b84f54f9b578-651378eab636704d46258327_noun-healthcare-2411567-8E108C.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 1552
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6515fdb3462a23daad6ad5f2_noun-bandage-1235319-8E108C.svg",
+      "file": "assets/cdn.prod.website-files.com/2568f0838981a62e-6515fdb3462a23daad6ad5f2_noun-bandage-1235319-8E108C.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 4590
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6516f62cb7ecf166f84b0bb7_noun-checkbox-1019006-8E108C.svg",
+      "file": "assets/cdn.prod.website-files.com/a0159d055e8c8eee-6516f62cb7ecf166f84b0bb7_noun-checkbox-1019006-8E108C.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 1268
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/65170962464f206d2ce94d02_ProfilePic_Abinash_2.png",
+      "file": "assets/cdn.prod.website-files.com/42b2e062413e3ddd-65170962464f206d2ce94d02_ProfilePic_Abinash_2.png",
+      "contentType": "image/png",
+      "bytes": 192132
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/65174f66cde9c5589dc3334f_anara%20plus%20apollo-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/cfed5d914d1c7018-65174f66cde9c5589dc3334f_anara-plus-apollo-p-500.png",
+      "contentType": "image/png",
+      "bytes": 12871
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/65174f66cde9c5589dc3334f_anara%20plus%20apollo-p-800.png",
+      "file": "assets/cdn.prod.website-files.com/208a4dace8e38e0a-65174f66cde9c5589dc3334f_anara-plus-apollo-p-800.png",
+      "contentType": "image/png",
+      "bytes": 21384
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/65174f66cde9c5589dc3334f_anara%20plus%20apollo.png",
+      "file": "assets/cdn.prod.website-files.com/facf89e6ae00d1c4-65174f66cde9c5589dc3334f_anara-plus-apollo.png",
+      "contentType": "image/png",
+      "bytes": 34078
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/651da7edacfba4a4ac7e5cf4_Anara%20Home.png",
+      "file": "assets/cdn.prod.website-files.com/8b91f068a0589279-651da7edacfba4a4ac7e5cf4_Anara-Home.png",
+      "contentType": "image/png",
+      "bytes": 2133804
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/666f8d89c1e7e520838cea16_close%20(1).png",
+      "file": "assets/cdn.prod.website-files.com/d8095fbf9483fb4e-666f8d89c1e7e520838cea16_close-1-.png",
+      "contentType": "image/png",
+      "bytes": 1143
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/666f8db3a8a5c2aafe7cbda1_Hero%20Image.webp",
+      "file": "assets/cdn.prod.website-files.com/42f451965e5fb1be-666f8db3a8a5c2aafe7cbda1_Hero-Image.webp",
+      "contentType": "image/webp",
+      "bytes": 97630
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/666f8db3a8a5c2aafe7cbda1_Hero%2520Image-p-500.webp",
+      "file": "assets/cdn.prod.website-files.com/2a2ee1aacc018352-666f8db3a8a5c2aafe7cbda1_Hero-20Image-p-500.webp",
+      "contentType": "image/webp",
+      "bytes": 31070
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701aaf755ac36e7f9c0f3a_examination.png",
+      "file": "assets/cdn.prod.website-files.com/1ad12769518b361c-66701aaf755ac36e7f9c0f3a_examination.png",
+      "contentType": "image/png",
+      "bytes": 5954
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701aaf755ac36e7f9c0f4b_24-hours-support.png",
+      "file": "assets/cdn.prod.website-files.com/8794cda618a9d849-66701aaf755ac36e7f9c0f4b_24-hours-support.png",
+      "contentType": "image/png",
+      "bytes": 8689
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701aaf755ac36e7f9c0f64_patient.png",
+      "file": "assets/cdn.prod.website-files.com/6652ab14caaf744e-66701aaf755ac36e7f9c0f64_patient.png",
+      "contentType": "image/png",
+      "bytes": 3307
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701aaf755ac36e7f9c0f6d_contract.png",
+      "file": "assets/cdn.prod.website-files.com/77b6e31d64241ae9-66701aaf755ac36e7f9c0f6d_contract.png",
+      "contentType": "image/png",
+      "bytes": 3803
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701ab0755ac36e7f9c0f74_medical-team.png",
+      "file": "assets/cdn.prod.website-files.com/1aaf65a8d2c3aff6-66701ab0755ac36e7f9c0f74_medical-team.png",
+      "contentType": "image/png",
+      "bytes": 9991
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701ab1755ac36e7f9c0fe5_Apollo%20Hosptials.png",
+      "file": "assets/cdn.prod.website-files.com/741465ef73ad6ef0-66701ab1755ac36e7f9c0fe5_Apollo-Hosptials.png",
+      "contentType": "image/png",
+      "bytes": 24345
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701ab1755ac36e7f9c0ff4_ratings-p-1080.png",
+      "file": "assets/cdn.prod.website-files.com/e42dbc2ae75593ce-66701ab1755ac36e7f9c0ff4_ratings-p-1080.png",
+      "contentType": "image/png",
+      "bytes": 20802
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701ab1755ac36e7f9c0ff4_ratings-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/22870020fce4df0e-66701ab1755ac36e7f9c0ff4_ratings-p-500.png",
+      "contentType": "image/png",
+      "bytes": 8786
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701ab1755ac36e7f9c0ff4_ratings-p-800.png",
+      "file": "assets/cdn.prod.website-files.com/fb181ca0424cda9f-66701ab1755ac36e7f9c0ff4_ratings-p-800.png",
+      "contentType": "image/png",
+      "bytes": 14600
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701ab1755ac36e7f9c0ff4_ratings.png",
+      "file": "assets/cdn.prod.website-files.com/34e4947e9b173065-66701ab1755ac36e7f9c0ff4_ratings.png",
+      "contentType": "image/png",
+      "bytes": 36508
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701abd99f917279e40decf_doctor-visit%20(1).png",
+      "file": "assets/cdn.prod.website-files.com/c56b00ebcf0a87de-66701abd99f917279e40decf_doctor-visit-1-.png",
+      "contentType": "image/png",
+      "bytes": 9855
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701abd99f917279e40df47_Doc%20with%20parents%20(1).webp",
+      "file": "assets/cdn.prod.website-files.com/5bb920f2b2f763fd-66701abd99f917279e40df47_Doc-with-parents-1-.webp",
+      "contentType": "image/webp",
+      "bytes": 231864
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701abd99f917279e40df47_Doc%2520with%2520parents%2520(1)-p-500.webp",
+      "file": "assets/cdn.prod.website-files.com/22116f1544da7318-66701abd99f917279e40df47_Doc-20with-20parents-20-1--p-500.webp",
+      "contentType": "image/webp",
+      "bytes": 15132
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701abe99f917279e40df67_24-hours-support%20(1).png",
+      "file": "assets/cdn.prod.website-files.com/2250a74311e780fb-66701abe99f917279e40df67_24-hours-support-1-.png",
+      "contentType": "image/png",
+      "bytes": 5736
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701abe99f917279e40df6e_doctor.png",
+      "file": "assets/cdn.prod.website-files.com/33c736b6a0eeb457-66701abe99f917279e40df6e_doctor.png",
+      "contentType": "image/png",
+      "bytes": 6125
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701abf99f917279e40dfaa_chemical-analysis.png",
+      "file": "assets/cdn.prod.website-files.com/0c5f916cb55d2164-66701abf99f917279e40dfaa_chemical-analysis.png",
+      "contentType": "image/png",
+      "bytes": 7595
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701abf99f917279e40dfd9_health-insurance.png",
+      "file": "assets/cdn.prod.website-files.com/e9e6fb672a517cd6-66701abf99f917279e40dfd9_health-insurance.png",
+      "contentType": "image/png",
+      "bytes": 3207
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701ac099f917279e40dfed_peace-of-mind.png",
+      "file": "assets/cdn.prod.website-files.com/0ce61a487b1dc9ca-66701ac099f917279e40dfed_peace-of-mind.png",
+      "contentType": "image/png",
+      "bytes": 4862
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701b0dd6e0a19742204e35_prohealh-logo.png",
+      "file": "assets/cdn.prod.website-files.com/c0af80439abc295b-66701b0dd6e0a19742204e35_prohealh-logo.png",
+      "contentType": "image/png",
+      "bytes": 11841
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701b0dd6e0a19742204e56_Parents%203.png",
+      "file": "assets/cdn.prod.website-files.com/dceeac2b4659eac1-66701b0dd6e0a19742204e56_Parents-3.png",
+      "contentType": "image/png",
+      "bytes": 268046
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701b4ef7886dfb544894a4_next.png",
+      "file": "assets/cdn.prod.website-files.com/23fc0ea33d8ee92a-66701b4ef7886dfb544894a4_next.png",
+      "contentType": "image/png",
+      "bytes": 5029
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701b4ef7886dfb544894f6_Worried.webp",
+      "file": "assets/cdn.prod.website-files.com/06831293c7294a1f-66701b4ef7886dfb544894f6_Worried.webp",
+      "contentType": "image/webp",
+      "bytes": 102476
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701b792219c7e9b70b5e1e_Old%20women%20(1).webp",
+      "file": "assets/cdn.prod.website-files.com/cbf416e0d1429ed4-66701b792219c7e9b70b5e1e_Old-women-1-.webp",
+      "contentType": "image/webp",
+      "bytes": 43574
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701b792219c7e9b70b5e1e_Old%2520women%2520(1)-p-1080.webp",
+      "file": "assets/cdn.prod.website-files.com/efc4d12161eaa501-66701b792219c7e9b70b5e1e_Old-20women-20-1--p-1080.webp",
+      "contentType": "image/webp",
+      "bytes": 35040
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701b792219c7e9b70b5e1e_Old%2520women%2520(1)-p-500.webp",
+      "file": "assets/cdn.prod.website-files.com/a36ee32d5ca00ed5-66701b792219c7e9b70b5e1e_Old-20women-20-1--p-500.webp",
+      "contentType": "image/webp",
+      "bytes": 13638
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701b792219c7e9b70b5e1e_Old%2520women%2520(1)-p-800.webp",
+      "file": "assets/cdn.prod.website-files.com/1ff83e492789bb6f-66701b792219c7e9b70b5e1e_Old-20women-20-1--p-800.webp",
+      "contentType": "image/webp",
+      "bytes": 25592
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701b792219c7e9b70b5e45_next%20(1).png",
+      "file": "assets/cdn.prod.website-files.com/2fc8ccced0d83898-66701b792219c7e9b70b5e45_next-1-.png",
+      "contentType": "image/png",
+      "bytes": 4801
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701cb53ed994b50ed07b46_76c753b4-7f6b-40b3-a2f1-5e47efc1d335.webp",
+      "file": "assets/cdn.prod.website-files.com/bdd0b8a6c25fc0aa-66701cb53ed994b50ed07b46_76c753b4-7f6b-40b3-a2f1-5e47efc1d335.webp",
+      "contentType": "image/webp",
+      "bytes": 265604
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701cb53ed994b50ed07b7b_About%20Image.webp",
+      "file": "assets/cdn.prod.website-files.com/9c4daf1f24cf62d0-66701cb53ed994b50ed07b7b_About-Image.webp",
+      "contentType": "image/webp",
+      "bytes": 124682
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701cb53ed994b50ed07b7b_About%2520Image-p-500.webp",
+      "file": "assets/cdn.prod.website-files.com/405380f1f49b4fed-66701cb53ed994b50ed07b7b_About-20Image-p-500.webp",
+      "contentType": "image/webp",
+      "bytes": 19098
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66701cb53ed994b50ed07b7b_About%2520Image-p-800.webp",
+      "file": "assets/cdn.prod.website-files.com/19f9fbd3776ce124-66701cb53ed994b50ed07b7b_About-20Image-p-800.webp",
+      "contentType": "image/webp",
+      "bytes": 33428
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6698f869652633fd45373192_Anara%20Social%20Share%20(1).jpg",
+      "file": "assets/cdn.prod.website-files.com/07eba391fd5fd241-6698f869652633fd45373192_Anara-Social-Share-1-.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 103960
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6699fc10d25ed1fe3f00acf2_Anara%20%26%20Apollo.webp",
+      "file": "assets/cdn.prod.website-files.com/4136b64ccf3d4057-6699fc10d25ed1fe3f00acf2_Anara-Apollo.webp",
+      "contentType": "image/webp",
+      "bytes": 35348
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66a738149cc0ef3a6b0827ea_Anara%20bg%20less.png",
+      "file": "assets/cdn.prod.website-files.com/347ba4d4ec3225a2-66a738149cc0ef3a6b0827ea_Anara-bg-less.png",
+      "contentType": "image/png",
+      "bytes": 73501
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66dad081ff3f5f79a5bec27d_4_yutyty_1231.webp",
+      "file": "assets/cdn.prod.website-files.com/40cce36082f2fb8c-66dad081ff3f5f79a5bec27d_4_yutyty_1231.webp",
+      "contentType": "image/webp",
+      "bytes": 76380
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66dae2dcf888cb7d964959d7_SSample-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/44f60617df806289-66dae2dcf888cb7d964959d7_SSample-p-500.png",
+      "contentType": "image/png",
+      "bytes": 20250
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66dae2dcf888cb7d964959d7_SSample.png",
+      "file": "assets/cdn.prod.website-files.com/3571cc1b2199d5b1-66dae2dcf888cb7d964959d7_SSample.png",
+      "contentType": "image/png",
+      "bytes": 23584
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f2663b9ed1b48ca570f565_2-p-1080.webp",
+      "file": "assets/cdn.prod.website-files.com/da22cc0c119a52d7-66f2663b9ed1b48ca570f565_2-p-1080.webp",
+      "contentType": "image/webp",
+      "bytes": 81586
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f2663b9ed1b48ca570f565_2-p-500.webp",
+      "file": "assets/cdn.prod.website-files.com/60b1aadbde1a310e-66f2663b9ed1b48ca570f565_2-p-500.webp",
+      "contentType": "image/webp",
+      "bytes": 36660
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f2663b9ed1b48ca570f565_2-p-800.webp",
+      "file": "assets/cdn.prod.website-files.com/9eff68f0c10ab9e5-66f2663b9ed1b48ca570f565_2-p-800.webp",
+      "contentType": "image/webp",
+      "bytes": 62316
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f2663b9ed1b48ca570f565_2.webp",
+      "file": "assets/cdn.prod.website-files.com/3d421f3efde7acee-66f2663b9ed1b48ca570f565_2.webp",
+      "contentType": "image/webp",
+      "bytes": 128686
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f5d78c39a09355886974b2_male-working-as-paediatrician%20(2)-p-1080.webp",
+      "file": "assets/cdn.prod.website-files.com/d5256d33815edf6e-66f5d78c39a09355886974b2_male-working-as-paediatrician-2--p-1080.webp",
+      "contentType": "image/webp",
+      "bytes": 77534
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f5d78c39a09355886974b2_male-working-as-paediatrician%20(2)-p-1600.webp",
+      "file": "assets/cdn.prod.website-files.com/ded80a23d967262d-66f5d78c39a09355886974b2_male-working-as-paediatrician-2--p-1600.webp",
+      "contentType": "image/webp",
+      "bytes": 129978
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f5d78c39a09355886974b2_male-working-as-paediatrician%20(2)-p-2000.webp",
+      "file": "assets/cdn.prod.website-files.com/2e9d9e3fd95553af-66f5d78c39a09355886974b2_male-working-as-paediatrician-2--p-2000.webp",
+      "contentType": "image/webp",
+      "bytes": 172622
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f5d78c39a09355886974b2_male-working-as-paediatrician%20(2)-p-2600.webp",
+      "file": "assets/cdn.prod.website-files.com/c556099ce1fc7b99-66f5d78c39a09355886974b2_male-working-as-paediatrician-2--p-2600.webp",
+      "contentType": "image/webp",
+      "bytes": 234238
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f5d78c39a09355886974b2_male-working-as-paediatrician%20(2)-p-3200.webp",
+      "file": "assets/cdn.prod.website-files.com/118abc190ffe7d0c-66f5d78c39a09355886974b2_male-working-as-paediatrician-2--p-3200.webp",
+      "contentType": "image/webp",
+      "bytes": 304844
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f5d78c39a09355886974b2_male-working-as-paediatrician%20(2)-p-500.webp",
+      "file": "assets/cdn.prod.website-files.com/349b257f48ef552f-66f5d78c39a09355886974b2_male-working-as-paediatrician-2--p-500.webp",
+      "contentType": "image/webp",
+      "bytes": 29854
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f5d78c39a09355886974b2_male-working-as-paediatrician%20(2)-p-800.webp",
+      "file": "assets/cdn.prod.website-files.com/f2b78d8582bbd73b-66f5d78c39a09355886974b2_male-working-as-paediatrician-2--p-800.webp",
+      "contentType": "image/webp",
+      "bytes": 52874
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f5d78c39a09355886974b2_male-working-as-paediatrician%20(2).webp",
+      "file": "assets/cdn.prod.website-files.com/817df4b3a1c2fe34-66f5d78c39a09355886974b2_male-working-as-paediatrician-2-.webp",
+      "contentType": "image/webp",
+      "bytes": 385800
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f5ecd8e9c168d0980e0c28_premium.png",
+      "file": "assets/cdn.prod.website-files.com/b929490b575f170a-66f5ecd8e9c168d0980e0c28_premium.png",
+      "contentType": "image/png",
+      "bytes": 2603
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f5ee3c3a68f5494f40768b_medical-file.png",
+      "file": "assets/cdn.prod.website-files.com/c3cecaf3bb9f8005-66f5ee3c3a68f5494f40768b_medical-file.png",
+      "contentType": "image/png",
+      "bytes": 2262
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f6448abf4d944dfb54ad60_untitled-ui-logo.png",
+      "file": "assets/cdn.prod.website-files.com/c9bc68a312e628f9-66f6448abf4d944dfb54ad60_untitled-ui-logo.png",
+      "contentType": "image/png",
+      "bytes": 12767
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66f6448abf4d944dfb54ad6b_untitled-ui-logomark.svg",
+      "file": "assets/cdn.prod.website-files.com/0c7a640b6d2e0572-66f6448abf4d944dfb54ad6b_untitled-ui-logomark.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 3753
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66fbd3fbdfca0f2a2d0e5f3b_E-Book%20Cover%5B1%5D-p-1080.webp",
+      "file": "assets/cdn.prod.website-files.com/7bb35f3d2bb62f15-66fbd3fbdfca0f2a2d0e5f3b_E-Book-Cover-1--p-1080.webp",
+      "contentType": "image/webp",
+      "bytes": 73456
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66fbd3fbdfca0f2a2d0e5f3b_E-Book%20Cover%5B1%5D-p-500.webp",
+      "file": "assets/cdn.prod.website-files.com/13404bc0df000972-66fbd3fbdfca0f2a2d0e5f3b_E-Book-Cover-1--p-500.webp",
+      "contentType": "image/webp",
+      "bytes": 32274
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66fbd3fbdfca0f2a2d0e5f3b_E-Book%20Cover%5B1%5D-p-800.webp",
+      "file": "assets/cdn.prod.website-files.com/bbb4e58e6b675b23-66fbd3fbdfca0f2a2d0e5f3b_E-Book-Cover-1--p-800.webp",
+      "contentType": "image/webp",
+      "bytes": 55666
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66fbd3fbdfca0f2a2d0e5f3b_E-Book%20Cover%5B1%5D.webp",
+      "file": "assets/cdn.prod.website-files.com/76940b4a71ec33d2-66fbd3fbdfca0f2a2d0e5f3b_E-Book-Cover-1-.webp",
+      "contentType": "image/webp",
+      "bytes": 110680
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66fd13d55ae72d74681c2e00_WhatsApp.svg-p-1080.webp",
+      "file": "assets/cdn.prod.website-files.com/b526b03f15a29042-66fd13d55ae72d74681c2e00_WhatsApp.svg-p-1080.webp",
+      "contentType": "image/webp",
+      "bytes": 89308
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66fd13d55ae72d74681c2e00_WhatsApp.svg-p-1600.webp",
+      "file": "assets/cdn.prod.website-files.com/8cdf96769ccd3f6f-66fd13d55ae72d74681c2e00_WhatsApp.svg-p-1600.webp",
+      "contentType": "image/webp",
+      "bytes": 172386
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66fd13d55ae72d74681c2e00_WhatsApp.svg-p-500.webp",
+      "file": "assets/cdn.prod.website-files.com/df75aad6e0c619ad-66fd13d55ae72d74681c2e00_WhatsApp.svg-p-500.webp",
+      "contentType": "image/webp",
+      "bytes": 27950
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66fd13d55ae72d74681c2e00_WhatsApp.svg-p-800.webp",
+      "file": "assets/cdn.prod.website-files.com/9f762bd2eb5a4847-66fd13d55ae72d74681c2e00_WhatsApp.svg-p-800.webp",
+      "contentType": "image/webp",
+      "bytes": 56646
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66fd13d55ae72d74681c2e00_WhatsApp.svg.webp",
+      "file": "assets/cdn.prod.website-files.com/8d9bdea2740bd5d7-66fd13d55ae72d74681c2e00_WhatsApp.svg.webp",
+      "contentType": "image/webp",
+      "bytes": 186222
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/66fd6b14da5fb5ab751905bc_Anaara%20hero.jpg",
+      "file": "assets/cdn.prod.website-files.com/93b6ae2e277bb001-66fd6b14da5fb5ab751905bc_Anaara-hero.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 186928
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6704d0d930c84ba34f62771c_Anara%20bg%202.jpg",
+      "file": "assets/cdn.prod.website-files.com/8f9ddc2ea6fc122e-6704d0d930c84ba34f62771c_Anara-bg-2.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 176699
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6704d195ebc8253b28276eef_Anara%20BG%203.jpg",
+      "file": "assets/cdn.prod.website-files.com/052aaa7293b2b2e8-6704d195ebc8253b28276eef_Anara-BG-3.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 182858
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/67052093aba8846e6e4c71f8_An%20bg.webp",
+      "file": "assets/cdn.prod.website-files.com/1b0c4b9300a9ebd7-67052093aba8846e6e4c71f8_An-bg.webp",
+      "contentType": "image/webp",
+      "bytes": 63426
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/67077201bcbb4558ce993d28_Indian%20md%20aged-p-500.webp",
+      "file": "assets/cdn.prod.website-files.com/12b30c692e4692af-67077201bcbb4558ce993d28_Indian-md-aged-p-500.webp",
+      "contentType": "image/webp",
+      "bytes": 11666
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/67077201bcbb4558ce993d28_Indian%20md%20aged.webp",
+      "file": "assets/cdn.prod.website-files.com/14dbdbae3d5c759d-67077201bcbb4558ce993d28_Indian-md-aged.webp",
+      "contentType": "image/webp",
+      "bytes": 54116
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6711e07b82d5581d97d52d3f_blob-brix-templates.svg",
+      "file": "assets/cdn.prod.website-files.com/14743a622f48d8f8-6711e07b82d5581d97d52d3f_blob-brix-templates.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 1772
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6711e56cd4eb7cfa99fc6695_5209-p-500.webp",
+      "file": "assets/cdn.prod.website-files.com/22b2203a48ef1988-6711e56cd4eb7cfa99fc6695_5209-p-500.webp",
+      "contentType": "image/webp",
+      "bytes": 21022
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6711e56cd4eb7cfa99fc6695_5209-p-800.webp",
+      "file": "assets/cdn.prod.website-files.com/13d6df84ea963d87-6711e56cd4eb7cfa99fc6695_5209-p-800.webp",
+      "contentType": "image/webp",
+      "bytes": 34608
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6711e56cd4eb7cfa99fc6695_5209.webp",
+      "file": "assets/cdn.prod.website-files.com/6f02cbfc613d0610-6711e56cd4eb7cfa99fc6695_5209.webp",
+      "contentType": "image/webp",
+      "bytes": 70742
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6711fd7e12e4880a9316f445_C2-p-500.webp",
+      "file": "assets/cdn.prod.website-files.com/dedafba772ecf40a-6711fd7e12e4880a9316f445_C2-p-500.webp",
+      "contentType": "image/webp",
+      "bytes": 18016
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6711fd7e12e4880a9316f445_C2.webp",
+      "file": "assets/cdn.prod.website-files.com/ca983a3870a33577-6711fd7e12e4880a9316f445_C2.webp",
+      "contentType": "image/webp",
+      "bytes": 30964
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/67120c5298520d4adef564f6_line-rounded-check-circle-white-brix-templates.svg",
+      "file": "assets/cdn.prod.website-files.com/e11d4c58b5774b07-67120c5298520d4adef564f6_line-rounded-check-circle-white-brix-templates.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 638
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/67120ca712e4880a9324ce36_icon-brix-template-Phone.svg",
+      "file": "assets/cdn.prod.website-files.com/c90025230bdef576-67120ca712e4880a9324ce36_icon-brix-template-Phone.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 846
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/67120ca712e4880a9324ce3d_icon-brix-template-Email.svg",
+      "file": "assets/cdn.prod.website-files.com/53aa8386ecb3750f-67120ca712e4880a9324ce3d_icon-brix-template-Email.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 543
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/67122f948c28ef0bc0bb7206_feature-image-05.jpg",
+      "file": "assets/cdn.prod.website-files.com/8b87aded50c26c7a-67122f948c28ef0bc0bb7206_feature-image-05.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 43705
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6712308ab81a83a1bd697ff9_21107-p-500.webp",
+      "file": "assets/cdn.prod.website-files.com/9e97fc7c7698bd06-6712308ab81a83a1bd697ff9_21107-p-500.webp",
+      "contentType": "image/webp",
+      "bytes": 21252
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6712308ab81a83a1bd697ff9_21107.webp",
+      "file": "assets/cdn.prod.website-files.com/35b8bdd76d74621c-6712308ab81a83a1bd697ff9_21107.webp",
+      "contentType": "image/webp",
+      "bytes": 46218
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6712318cd9c83b64ea0b89ce_Corp%20-p-500.webp",
+      "file": "assets/cdn.prod.website-files.com/a7db8b863c0af3d3-6712318cd9c83b64ea0b89ce_Corp--p-500.webp",
+      "contentType": "image/webp",
+      "bytes": 10410
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6712318cd9c83b64ea0b89ce_Corp%20.webp",
+      "file": "assets/cdn.prod.website-files.com/606525d069bbfe46-6712318cd9c83b64ea0b89ce_Corp-.webp",
+      "contentType": "image/webp",
+      "bytes": 22392
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/67123711bd14bd021592eb26_left-arrow-line-icon-elements-brix-templates.svg",
+      "file": "assets/cdn.prod.website-files.com/650c3d873a645ab7-67123711bd14bd021592eb26_left-arrow-line-icon-elements-brix-templates.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 366
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/67123712bd14bd021592ec19_right-arrow-line-icon-elements-brix-templates.svg",
+      "file": "assets/cdn.prod.website-files.com/73e002e4aaad8c2f-67123712bd14bd021592ec19_right-arrow-line-icon-elements-brix-templates.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 365
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/67289364a5735c59bb0168cc_Beyond%20Traditional%20Insurance%20(1)-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/2420c3e04e5448bb-67289364a5735c59bb0168cc_Beyond-Traditional-Insurance-1--p-500.png",
+      "contentType": "image/png",
+      "bytes": 9956
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/67289364a5735c59bb0168cc_Beyond%20Traditional%20Insurance%20(1).png",
+      "file": "assets/cdn.prod.website-files.com/92be6f755fda4565-67289364a5735c59bb0168cc_Beyond-Traditional-Insurance-1-.png",
+      "contentType": "image/png",
+      "bytes": 28319
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6728bb7bd5abb1abea5af835_shield.png",
+      "file": "assets/cdn.prod.website-files.com/5e5a45fd4f236cda-6728bb7bd5abb1abea5af835_shield.png",
+      "contentType": "image/png",
+      "bytes": 6244
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6728c33c9eea5f974a930e7c_retention.png",
+      "file": "assets/cdn.prod.website-files.com/c145f8e3ce907f98-6728c33c9eea5f974a930e7c_retention.png",
+      "contentType": "image/png",
+      "bytes": 4057
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6728c3b0ff58c6db09d5c58c_medical.png",
+      "file": "assets/cdn.prod.website-files.com/b1be44cf6e0ed281-6728c3b0ff58c6db09d5c58c_medical.png",
+      "contentType": "image/png",
+      "bytes": 3592
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6728c3f614f4e50eebc1669b_employee-performance.png",
+      "file": "assets/cdn.prod.website-files.com/0e7fb8c9fe7e6726-6728c3f614f4e50eebc1669b_employee-performance.png",
+      "contentType": "image/png",
+      "bytes": 5347
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/673b17cab53fe2be0ad8530a_Beyond%20Traditional%20Insurance-p-500.png",
+      "file": "assets/cdn.prod.website-files.com/aab7a36cb9d884e5-673b17cab53fe2be0ad8530a_Beyond-Traditional-Insurance-p-500.png",
+      "contentType": "image/png",
+      "bytes": 11553
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/673b17cab53fe2be0ad8530a_Beyond%20Traditional%20Insurance.png",
+      "file": "assets/cdn.prod.website-files.com/064279e3b1cd7828-673b17cab53fe2be0ad8530a_Beyond-Traditional-Insurance.png",
+      "contentType": "image/png",
+      "bytes": 34664
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6853af2753e749a12d95b96e_Dr.%20Anindya%20Office-p-500.jpg",
+      "file": "assets/cdn.prod.website-files.com/3f3adc6a4bacf3b0-6853af2753e749a12d95b96e_Dr.-Anindya-Office-p-500.jpg",
+      "contentType": "image/jpg",
+      "bytes": 18386
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6853af2753e749a12d95b96e_Dr.%20Anindya%20Office-p-800.jpg",
+      "file": "assets/cdn.prod.website-files.com/6c33a94948044630-6853af2753e749a12d95b96e_Dr.-Anindya-Office-p-800.jpg",
+      "contentType": "image/jpg",
+      "bytes": 38134
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6853af2753e749a12d95b96e_Dr.%20Anindya%20Office.jpg",
+      "file": "assets/cdn.prod.website-files.com/21ae4faad355c9d9-6853af2753e749a12d95b96e_Dr.-Anindya-Office.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 109400
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6853b4944dfc4e99488096fb_Dr.%20Abinash%20Clinic-p-500.jpg",
+      "file": "assets/cdn.prod.website-files.com/fce15595ed01860c-6853b4944dfc4e99488096fb_Dr.-Abinash-Clinic-p-500.jpg",
+      "contentType": "image/jpg",
+      "bytes": 19346
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/6853b4944dfc4e99488096fb_Dr.%20Abinash%20Clinic.jpg",
+      "file": "assets/cdn.prod.website-files.com/d2ff1ce2237479f8-6853b4944dfc4e99488096fb_Dr.-Abinash-Clinic.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 48029
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/css/anara-230615-b8cabce02f9c446860ae00bfdf.webflow.shared.f8f51472c.min.css",
+      "file": "assets/cdn.prod.website-files.com/a5d9096c48c95b08-anara-230615-b8cabce02f9c446860ae00bfdf.webflow.shared.f8f51472c.min.css",
+      "contentType": "text/css",
+      "bytes": 287961
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.24e33e44.a36ffd1c0ba379ef.js",
+      "file": "assets/cdn.prod.website-files.com/a764a050b86bcf3a-webflow.24e33e44.a36ffd1c0ba379ef.js",
+      "contentType": "text/javascript",
+      "bytes": 1851
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.269a2a9d.77738d8ac1cc28ab.js",
+      "file": "assets/cdn.prod.website-files.com/71d62e9226823547-webflow.269a2a9d.77738d8ac1cc28ab.js",
+      "contentType": "text/javascript",
+      "bytes": 1879
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.325f92ef.fb05fc09c08792ba.js",
+      "file": "assets/cdn.prod.website-files.com/b34ef7d5ef98af2c-webflow.325f92ef.fb05fc09c08792ba.js",
+      "contentType": "text/javascript",
+      "bytes": 1865
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.5ae854b6.af53db5666f0fdcb.js",
+      "file": "assets/cdn.prod.website-files.com/dd5abfd30b88c058-webflow.5ae854b6.af53db5666f0fdcb.js",
+      "contentType": "text/javascript",
+      "bytes": 1865
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.b2e4934f.99414af047d6634f.js",
+      "file": "assets/cdn.prod.website-files.com/8ec68d86f41b2c81-webflow.b2e4934f.99414af047d6634f.js",
+      "contentType": "text/javascript",
+      "bytes": 1892
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.c76eedd7.5a2e383017610484.js",
+      "file": "assets/cdn.prod.website-files.com/82a349324d79bfb3-webflow.c76eedd7.5a2e383017610484.js",
+      "contentType": "text/javascript",
+      "bytes": 1852
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.da832c8b.46916e0aedb6adae.js",
+      "file": "assets/cdn.prod.website-files.com/93c162f5381ac257-webflow.da832c8b.46916e0aedb6adae.js",
+      "contentType": "text/javascript",
+      "bytes": 1836
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.f630229a.80f14fb2fd0077f1.js",
+      "file": "assets/cdn.prod.website-files.com/e5b4e3cecb427c9c-webflow.f630229a.80f14fb2fd0077f1.js",
+      "contentType": "text/javascript",
+      "bytes": 1850
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.schunk.121b0d7ff03e0f4a.js",
+      "file": "assets/cdn.prod.website-files.com/73b5224e79be57f5-webflow.schunk.121b0d7ff03e0f4a.js",
+      "contentType": "text/javascript",
+      "bytes": 3247
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.schunk.2542ae28647b928b.js",
+      "file": "assets/cdn.prod.website-files.com/b1499ec7d80f8bf6-webflow.schunk.2542ae28647b928b.js",
+      "contentType": "text/javascript",
+      "bytes": 272952
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.schunk.36b8fb49256177c8.js",
+      "file": "assets/cdn.prod.website-files.com/23616988bf958316-webflow.schunk.36b8fb49256177c8.js",
+      "contentType": "text/javascript",
+      "bytes": 41429
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.schunk.7a5bf95df786b33a.js",
+      "file": "assets/cdn.prod.website-files.com/4ea149a6e3453f14-webflow.schunk.7a5bf95df786b33a.js",
+      "contentType": "text/javascript",
+      "bytes": 5110
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.schunk.bdf58efcee47c042.js",
+      "file": "assets/cdn.prod.website-files.com/cc85dc471d38047c-webflow.schunk.bdf58efcee47c042.js",
+      "contentType": "text/javascript",
+      "bytes": 8732
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.schunk.dac51c455b7e76af.js",
+      "file": "assets/cdn.prod.website-files.com/52a7f133632161df-webflow.schunk.dac51c455b7e76af.js",
+      "contentType": "text/javascript",
+      "bytes": 9517
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632/js/webflow.schunk.f919141e3448519b.js",
+      "file": "assets/cdn.prod.website-files.com/9a1ddf88c8f0c06f-webflow.schunk.f919141e3448519b.js",
+      "contentType": "text/javascript",
+      "bytes": 9100
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/64c2f23a2589c852bdacd632%2F6470f5217e03b0faa8a404de%2F652b20274a2afe35595bc942%2Fhs_trackcode_44050258-1.0.6.js",
+      "file": "assets/cdn.prod.website-files.com/b70dc55f768aca4c-2bdacd632-6470f5217e03b0faa8a404de-652b20274a2afe35595bc942-hs_trackcode_44050258-1.0.6.js",
+      "contentType": "application/javascript",
+      "bytes": 145
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/665d3b86fdd82bd2f1096e66/66697af087b1a6f9ca7624bd_Logos%20Collab.jpg",
+      "file": "assets/cdn.prod.website-files.com/c086140ef057e9ae-66697af087b1a6f9ca7624bd_Logos-Collab.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 16493
+    },
+    {
+      "url": "https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg",
+      "file": "assets/d3e54v103j8qbb.cloudfront.net/03f5488c0c0ea48c-background-image.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 11068
+    },
+    {
+      "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=64c2f23a2589c852bdacd632",
+      "file": "assets/d3e54v103j8qbb.cloudfront.net/f1779ac2e9e97a31-jquery-3.5.1.min.dc5e7f18c8.js",
+      "contentType": "application/javascript",
+      "bytes": 89476
+    },
+    {
+      "url": "https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg",
+      "file": "assets/d3e54v103j8qbb.cloudfront.net/5ff0c03f9b15de6e-custom-checkbox-checkmark.589d534424.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 167
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "file": "assets/fonts.googleapis.com/343401950dbe46d6-css2.css",
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 1180
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZg.ttf",
+      "file": "assets/fonts.gstatic.com/2f6c206f7c744148-UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZg.ttf",
+      "contentType": "font/ttf",
+      "bytes": 327324
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf",
+      "file": "assets/fonts.gstatic.com/6f49e1b28bce7339-UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf",
+      "contentType": "font/ttf",
+      "bytes": 326468
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf",
+      "file": "assets/fonts.gstatic.com/87e867b52640b3b3-UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf",
+      "contentType": "font/ttf",
+      "bytes": 326048
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf",
+      "file": "assets/fonts.gstatic.com/e45972c7e9f24dc3-UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf",
+      "contentType": "font/ttf",
+      "bytes": 325304
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf",
+      "file": "assets/fonts.gstatic.com/a699af1dea30b799-UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf",
+      "contentType": "font/ttf",
+      "bytes": 324820
+    },
+    {
+      "url": "https://www.anara.health/avljl2rk9q5pNjRjMmYyM2EyNTg5Yzg1MmJkYWNkNjMy/DjdMnP4aCmlo0t6ew5WMfWpJ84I",
+      "file": "assets/www.anara.health/ace769298035a927-DjdMnP4aCmlo0t6ew5WMfWpJ84I.js",
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 611542
+    },
+    {
+      "url": "https://www.anara.health/avljl2rk9q5pNjRjMmYyM2EyNTg5Yzg1MmJkYWNkNjMy/DjdMnP4aCmlz08XlpeCJCh5I84I",
+      "file": "assets/www.anara.health/fb110b50c389dad1-DjdMnP4aCmlz08XlpeCJCh5I84I.js",
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 527820
+    }
+  ]
+}
