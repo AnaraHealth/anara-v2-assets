@@ -3,7 +3,7 @@
 // Pure request handler for the public lead form. Kept free of the Azure
 // Functions runtime so it can be unit-tested with plain Node.
 
-const MAX = { name: 120, email: 200, company: 160, phone: 40, employees: 40, service: 80, page: 500 };
+const MAX = { name: 120, email: 200, company: 160, phone: 40, city: 120, employees: 40, service: 80, page: 500 };
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 function clean(value, limit) {
@@ -57,6 +57,7 @@ async function handleLead({ method, headers, rawText }, env, sendMail) {
     email: clean(body.email, MAX.email),
     company: clean(body.company, MAX.company),
     phone: clean(body.phone, MAX.phone),
+    city: clean(body.city, MAX.city),
     employees: clean(body.employees, MAX.employees),
     service: clean(body.service, MAX.service),
     page: clean(body.page, MAX.page),
@@ -74,7 +75,7 @@ async function handleLead({ method, headers, rawText }, env, sendMail) {
   const subject = `New lead from anara.health: ${lead.company}`;
   const lines = [
     ['Name', lead.name], ['Work email', lead.email], ['Company', lead.company],
-    ['Phone', lead.phone || '-'], ['Service', lead.service || '-'], ['Employees', lead.employees || '-'], ['Page', lead.page || '-'],
+    ['Phone', lead.phone || '-'], ['Parent city', lead.city || '-'], ['Service', lead.service || '-'], ['Employees', lead.employees || '-'], ['Page', lead.page || '-'],
     ['Received', new Date().toISOString()],
   ];
   const text = lines.map(([k, v]) => `${k}: ${v}`).join('\n');

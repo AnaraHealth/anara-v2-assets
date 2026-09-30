@@ -11,12 +11,13 @@ const req = (rawText, extra = {}) => ({
   rawText,
 });
 
-test('valid lead sends one email and returns code 200', async () => {
+test('valid lead sends one email with the selected parent city and returns code 200', async () => {
   const sent = [];
-  const r = await handleLead(req(form({ name: 'A', email: 'a@b.co', company: 'Acme', employees: '50-200', service: 'Elder care' })), env, async (m) => sent.push(m));
+  const r = await handleLead(req(form({ name: 'A', email: 'a@b.co', company: 'Acme', city: 'Chennai', employees: '50-200', service: 'Elder care' })), env, async (m) => sent.push(m));
   assert.equal(r.status, 200); assert.equal(r.json.code, 200);
   assert.equal(sent.length, 1); assert.equal(sent[0].to, 'sales@example.test'); assert.equal(sent[0].replyTo, 'a@b.co');
   assert.match(sent[0].subject, /Acme/);
+  assert.match(sent[0].text, /Parent city: Chennai/);
   assert.match(sent[0].text, /Service: Elder care/);
 });
 

@@ -25,6 +25,15 @@ function routeForUrl(urlValue) {
   return url.pathname === '/' ? '/' : url.pathname.replace(/\/$/, '');
 }
 
+function sourcePageUrl(value, base = sourceOrigin) {
+  const url = new URL(value, base);
+  if (url.protocol !== 'https:' || url.origin !== sourceOrigin || url.username || url.password) {
+    throw new Error(`Refusing page URL outside ${sourceOrigin}: ${url.href}`);
+  }
+  url.hash = '';
+  return url.href;
+}
+
 function pageFileForRoute(route) {
   return route === '/' ? 'index.html' : path.join(route.slice(1), 'index.html');
 }
@@ -159,7 +168,9 @@ const sitemapResponse = await fetch(`${sourceOrigin}/sitemap.xml`, {
 });
 if (!sitemapResponse.ok) throw new Error(`Sitemap returned HTTP ${sitemapResponse.status}`);
 const sitemapXml = await sitemapResponse.text();
-const pageUrls = [...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+const pageUrls = [...new Set(
+  [...sitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => sourcePageUrl(match[1]))
+)];
 if (!pageUrls.includes(sourceOrigin) && !pageUrls.includes(`${sourceOrigin}/`)) pageUrls.push(sourceOrigin);
 for (const requiredLegacyUrl of [
   `${sourceOrigin}/same-day-doctor-visits-chandigarh`
@@ -173,7 +184,7 @@ await runPool(pageUrls, async (url) => {
   if (response.status >= 300 && response.status < 400) {
     const location = response.headers.get('location');
     if (!location) throw new Error(`${url} returned ${response.status} without Location`);
-    redirectResponses.set(route, { status: response.status, location: new URL(location, url).href });
+    redirectResponses.set(route, { status: response.status, location: sourcePageUrl(location, url) });
     return;
   }
   if (!response.ok) throw new Error(`${url} returned HTTP ${response.status}`);
