@@ -1,0 +1,7 @@
+.wrangler/
+.azure/
+.webflow-site-*/
+node_modules/
+infra/main.json
+output/playwright/
+.playwright-cli/

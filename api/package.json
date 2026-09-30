@@ -1,0 +1,17 @@
+{
+  "name": "anara-public-site-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Managed functions for the anara.health public site (lead form).",
+  "main": "src/functions/*.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@azure/communication-email": "^1.1.0",
+    "@azure/functions": "^4.5.0"
+  }
+}
